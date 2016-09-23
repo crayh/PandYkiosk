@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Porter and York Kiosk/Resources/ui/MainWindow.js&apos; to &apos;MainShopWindow.js&apos;" description="Rename resource &apos;MainWindow.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/MainWindow.js" name="MainShopWindow.js" stamp="1474598557080" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;lib&apos; to &apos;Resources&apos;" description="Move &apos;lib&apos; to &apos;Resources&apos;" destination="Resources" element1="Resources/ui/lib" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1474654553912" updateReferences="true"/>
+</session>

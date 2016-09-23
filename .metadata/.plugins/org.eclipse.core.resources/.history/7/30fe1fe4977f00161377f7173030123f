@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.porterandyork.PorterandYorkKiosk</id>
+  <name>Porter and York Kiosk</name>
+  <version>1.0</version>
+  <publisher>colehalverson</publisher>
+  <url>http://www.porterandyork.com</url>
+  <description>undefined</description>
+  <copyright>2016 by colehalverson</copyright>
+  <icon>PandY_stacked_reversed_color.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>ea76fe68-b3dd-4bb1-9333-4907c94b9aa1</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+      <precache/>
+      <splash>
+        <enabled>true</enabled>
+        <inline-css-images>true</inline-css-images>
+      </splash>
+      <theme>default</theme>
+    </mobileweb>
+    <modules>
+      <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+      <target device="android">false</target>
+      <target device="ipad">true</target>
+      <target device="iphone">false</target>
+      <target device="mobileweb">false</target>
+      <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.4.0.GA</sdk-version>
+    <property name="appc-app-id" type="string">57e1da8168766e9d43b4acf5</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">eIXTdGSzu1wELcwcGuZsCxz3xxLsovYu</property>
+    <property name="acs-oauth-key-development" type="string">6l1sX9NIdE0G3hzDPGWPPiBRioUUG3Kv</property>
+    <property name="acs-api-key-development" type="string">IMSiVLNPZwZpiwDm8NWM1xT4p4EhUns3</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">ORZ4YAASQB1u51d5LW</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">L1gLJYekezvUxWkZuD86aicLOoxzesKw</property>
+    <property name="acs-oauth-key-production" type="string">xixcsczDMEVjWklEpnFCg8kwn6JLHNsB</property>
+    <property name="acs-api-key-production" type="string">fmpd7stkUctbPM24khrIVconLTKnFO6e</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">DL2kyFr8I9vkGhjf27</property>
+    <property name="appc-org-id" type="string">100076942</property>
+    <property name="appc-creator-user-id" type="string">6dde5daa-5d68-4775-9951-a0ad59381dc7</property>
+  </ti:app>
