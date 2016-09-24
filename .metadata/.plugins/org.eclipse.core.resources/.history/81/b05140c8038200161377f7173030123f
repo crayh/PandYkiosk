@@ -7,7 +7,6 @@
 function MainShopWindow(args){
 	
 	var httpClient = require('lib/HttpClient');
-	var wooClient = require('lib/WooCommClient');
 	
 	var win = Ti.UI.createWindow({
 		width: '100%',
@@ -35,7 +34,7 @@ function MainShopWindow(args){
 	});
 	
 	mainContainerView.addEventListener('click', function(){
-		wooClient.getIndex();
+		wooUtil.getProducts();
 	});
 	
 		var label = Ti.UI.createLabel({

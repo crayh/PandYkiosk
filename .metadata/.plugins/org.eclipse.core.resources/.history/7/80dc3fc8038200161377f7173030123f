@@ -36,11 +36,11 @@ exports.mode_development = mode_development;
 // Set the services base url for testing and production
 if(mode === mode_development)
 	{
-		exports.woo_commerce_base_url = 'https://porterandyork.staging.wpengine.com';
+		exports.services_base_url = 'https://whatever-api.appspot.com';
 	}
 else
 	{
-	exports.woo_commerce_base_url = 'https://www.porterandyork.com';
+	exports.services_base_url = 'https://whatever-api.appspot.com';
 	}
 	
 exports.namespace_header = 'WebApplicationMode';
