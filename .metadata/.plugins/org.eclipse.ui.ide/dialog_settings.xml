@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
-		<item value="com.appcelerator.titanium.feature.360.rcp:4.7.0.201607250649-8k9fFNWFT6e0hlOCOksIq9LQQAWu"/>
-		<item value="com.appcelerator.titanium.studio:4.7.0.1469424544-7r7c7x9MUICFrTXXH"/>
-		<item value="com.aptana.feature:4.7.0.1469421129-B37i83CK71YmCh19f9833355984B"/>
+		<item value="com.appcelerator.titanium.feature.360.rcp:4.7.1.201609100950-8k9fFNYFT6e2Wiy5RrZUu9LQQCWu"/>
+		<item value="com.appcelerator.titanium.studio:4.7.1.1473496749-7r7c7y9MUL8A0XUXP"/>
+		<item value="com.aptana.feature:4.7.1.1473147787-B37i84CKDglKiT6b09833355984B"/>
 		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
 		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
 		<item value="org.eclipse.help:2.0.103.v20150204-1700"/>
 		<item value="org.eclipse.platform:4.4.2.v20150204-1700"/>
 		<item value="org.eclipse.rcp:4.4.2.v20150204-1700"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="340" key="DIALOG_HEIGHT"/>
+		<item value="486" key="DIALOG_X_ORIGIN"/>
+		<item value="220" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
