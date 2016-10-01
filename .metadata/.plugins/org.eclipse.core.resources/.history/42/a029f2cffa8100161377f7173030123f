@@ -1,9 +1,0 @@
-/**
- * @author Cole Halverson
- */
-
-//WooCommerce REST API auth
-exports.wooKey = "ck_bc547ebde42c1d3f72ede54cc83b51b047707f53";
-exports.wooSecret = "cs_05312de38f84f03f1c3ab85400cc0988737894c6";
-
-
