@@ -12,4 +12,4 @@ tmp
 /.metadata/
 .snap
 .safetable/
-
+.metadata/.log
