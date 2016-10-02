@@ -6,8 +6,10 @@ tmp
 .metadata
 .index/
 .history/
-.plugins/
+/.plugins/
 .log
 .metadata/
+/.metadata/
 .snap
 .safetable/
+
