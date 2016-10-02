@@ -36,7 +36,8 @@ function MainShopWindow(args){
 	
 	mainContainerView.addEventListener('click', function(){
 		//wooClient.getIndex();
-		wooClient.getOrders();
+		//wooClient.getOrders();
+		wooClient.getProducts();
 	});
 	
 		var label = Ti.UI.createLabel({

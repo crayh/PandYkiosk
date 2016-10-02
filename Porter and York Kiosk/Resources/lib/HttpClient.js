@@ -50,11 +50,8 @@ exports.doPost = function(endpoint, request, callback)
 	xhr.send(JSON.stringify(request));
 	};
 	
-exports.doGet = function(base_url, endpoint, callback)
+exports.doGet = function(url, callback)
 	{
-	
-	var url = base_url + endpoint;
-	url = url + '?' + 'consumer_key=' + config.wooKey + '&' + 'consumer_secret=' + config.wooSecret;
 	Ti.API.info(url);
 	
 	var xhr = Ti.Network.createHTTPClient({
@@ -89,9 +86,7 @@ exports.doGet = function(base_url, endpoint, callback)
         });
     
     xhr.open('GET', url);
-   //xhr.setRequestHeader("Authorization", "Basic " + Titanium.Utils.base64encode(config.wooKey + ":" + config.wooSecret));
-   xhr.setRequestHeader('content-type', 'application/json');
-   // xhr.setRequestHeader(config.namespace_header, config.namespace);
+    xhr.setRequestHeader('content-type', 'application/json');
 	xhr.send();
 	};
 
