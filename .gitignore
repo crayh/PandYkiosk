@@ -1,0 +1,15 @@
+build/
+build.log
+tmp
+._*
+.DS_Store
+.metadata
+.index/
+.history/
+/.plugins/
+.log
+.metadata/
+/.metadata/
+.snap
+/.safetable/
+.metadata/.log
