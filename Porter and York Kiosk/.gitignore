@@ -1,10 +1,11 @@
-build
+build/
 build.log
 tmp
 ._*
 .DS_Store
 .metadata
-.index
-.history
-.plugins
+.index/
+.history/
+.plugins/
 .log
+.metadata/
