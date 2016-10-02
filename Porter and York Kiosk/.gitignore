@@ -9,3 +9,5 @@ tmp
 .plugins/
 .log
 .metadata/
+.snap
+.safetable/
