@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.installer.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="Porter and York Kiosk"/>
+<stringAttribute key="ATTR_TITANIUM_DEPLOY_TYPE" value="development"/>
+<booleanAttribute key="ATTR_UPLOAD_DEBUG_SYMBOLS" value="false"/>
+<stringAttribute key="appid" value="com.porterandyork.PorterandYorkKiosk"/>
+<stringAttribute key="certificate" value="Cole Halverson (AMWUKKC53E)"/>
+<stringAttribute key="debug_config" value="::1475984281518:10.0.0.53"/>
+<stringAttribute key="debug_hosts" value="10.0.0.53"/>
+<stringAttribute key="device_id" value="645c7873321454c052e352f16d8b074ba7e1d3fa"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Porter and York Kiosk"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="9.3"/>
+<stringAttribute key="uuid" value="e13bf213-bde8-4ca9-92c4-ad6a9529573a"/>
+</launchConfiguration>

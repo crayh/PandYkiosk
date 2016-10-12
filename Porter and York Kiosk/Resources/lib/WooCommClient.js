@@ -22,18 +22,20 @@ exports.getOrders = function(){
 };
 
 exports.getProducts = function(productId, callback){
-	var endpoint = '/wp-json/wc/v1/products/';
+	//var endpoint = '/wp-json/wc/v1/products/';
+	var endpoint = '/wc-api/v3/products/';
 	
 	if(productId !== 'all'){endpoint += productId;};
 
 	var url = buildUrl(endpoint);
-	
+	//Tell API to include product meta data in the JSON return
+	url += '&filter[meta]=true';
 	//Tell the API to not limit the results (default is 10)
-	url += '&per_page=100';
+	url += '&filter[limit]=100';
 	
 	httpClient.doGet(url, function(success, res){
 		if(success){
-			callback(filterProducts(res));
+			callback(filterProducts(res.products));
 		}else{
 			//TODO error handler
 		}
@@ -54,19 +56,15 @@ function buildUrl(endpoint){
  * 
  */ 
 function filterProducts(products){
-	
+	Ti.API.info(products);
 	Ti.API.info(products.length);
-	
-	//TODO change to config.mode_production
-	if(config.mode === config.mode_production){
-			products = products.filter(function(product){
-				if (product.status === 'publish' && product.in_stock){
-					return true;
-				}else{
-					return false;
-				};
-			});
-	}
+	products = products.filter(function(product){
+		if (product.status === 'publish' && product.product_meta.grocery_kiosk_product){
+			return true;
+		}else{
+			return false;
+		};
+	});
 	
 	Ti.API.info(products.length);
 	return products;

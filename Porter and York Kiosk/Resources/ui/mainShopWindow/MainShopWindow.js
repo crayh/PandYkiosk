@@ -55,6 +55,7 @@ function MainShopWindow(args){
 		backgroundColor: 'red'
 	});
 	
+	
 	var view1 = Ti.UI.createView({
 			backgroundColor: 'orange',
 			height: Ti.UI.FILL,
@@ -71,7 +72,36 @@ function MainShopWindow(args){
 			width: Ti.UI.FILL
 	});
 	
-	scrollableView.setViews([view1, view2, view3]);
+	var scrollView1 = Ti.UI.createScrollView({
+		top: 0,
+		width: Ti.UI.FILL,
+		height: 3000,
+		backgroundColor: 'pink'
+	}),
+		scrollView2 = Ti.UI.createScrollView({
+		top: 0,
+		width: Ti.UI.FILL,
+		height: 1500,
+		backgroundColor: 'purple'
+	}),
+		scrollView3 = Ti.UI.createScrollView({
+		top: 0,
+		width: Ti.UI.FILL,
+		height: 1500,
+		backgroundColor: 'red'
+	});
+	
+	scrollView1.addEventListener('click', function(){
+		wooClient.getProducts('all', function(products){
+			Ti.API.info(products);
+		});
+	});
+	
+	view1.add(scrollView1);
+	view2.add(scrollView2);
+	view3.add(scrollView3);
+	
+	scrollableView.setViews([scrollView1, scrollView2, scrollView3]);
 	
 	win.add(scrollableView);
 	
