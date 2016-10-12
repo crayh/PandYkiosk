@@ -8,6 +8,7 @@ function MainShopWindow(args){
 	
 	var httpClient = require('lib/HttpClient');
 	var wooClient = require('lib/WooCommClient');
+	var LoadingView = require('ui/mainShopWindow/LoadingView');
 	var CategoryDock = require('ui/mainShopWindow/CategoryDock');
 	
 	var win = Ti.UI.createWindow({
@@ -15,7 +16,11 @@ function MainShopWindow(args){
 		height: '100%',
 		backgroundColor: 'green',
 		opacity: 0.0,
+		fullscreen: true
 	});
+	
+	var loadingView = new LoadingView();
+	win.add(loadingView);
 	
 	var postLayoutCallback = function(e){
 		win.removeEventListener('postlayout', postLayoutCallback);
@@ -58,48 +63,54 @@ function MainShopWindow(args){
 	
 	var view1 = Ti.UI.createView({
 			backgroundColor: 'orange',
-			height: Ti.UI.FILL,
+			height: 3000,
 			width: Ti.UI.FILL
 	}),
 		view2 = Ti.UI.createView({
 			backgroundColor: 'blue',
-			height: Ti.UI.FILL,
+			height: 3000,
 			width: Ti.UI.FILL
 	}),
 		view3 = Ti.UI.createView({
 			backgroundColor: 'green',
-			height: Ti.UI.FILL,
+			height: 3000,
 			width: Ti.UI.FILL
 	});
 	
 	var scrollView1 = Ti.UI.createScrollView({
 		top: 0,
 		width: Ti.UI.FILL,
-		height: 3000,
-		backgroundColor: 'pink'
+		height: Ti.UI.SIZE,
+		backgroundColor: 'pink',
+		showVerticalScrollIndicator: true,
+		nested: true
 	}),
 		scrollView2 = Ti.UI.createScrollView({
 		top: 0,
 		width: Ti.UI.FILL,
-		height: 1500,
-		backgroundColor: 'purple'
+		height: Ti.UI.SIZE,
+		backgroundColor: 'purple',
+		showVerticalScrollIndicator: true,
+		nested: true
 	}),
 		scrollView3 = Ti.UI.createScrollView({
 		top: 0,
 		width: Ti.UI.FILL,
-		height: 1500,
-		backgroundColor: 'red'
+		height: Ti.UI.SIZE,
+		backgroundColor: 'red',
+		showVerticalScrollIndicator: true,
+		nested: true
 	});
 	
-	scrollView1.addEventListener('click', function(){
+	view1.addEventListener('click', function(){
 		wooClient.getProducts('all', function(products){
 			Ti.API.info(products);
 		});
 	});
 	
-	view1.add(scrollView1);
-	view2.add(scrollView2);
-	view3.add(scrollView3);
+	scrollView1.add(view1);
+	scrollView2.add(view2);
+	scrollView3.add(view3);
 	
 	scrollableView.setViews([scrollView1, scrollView2, scrollView3]);
 	

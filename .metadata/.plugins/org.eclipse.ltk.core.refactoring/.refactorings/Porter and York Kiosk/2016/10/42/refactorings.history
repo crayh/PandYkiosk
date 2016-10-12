@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Porter and York Kiosk/Resources/ui/mainShopWindow/LoadingViewjs&apos; to &apos;LoadingView.js&apos;" description="Rename resource &apos;LoadingViewjs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/ui/mainShopWindow/LoadingViewjs" name="LoadingView.js" stamp="1476306476218" updateReferences="true"/>
+</session>

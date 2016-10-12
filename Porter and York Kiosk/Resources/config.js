@@ -36,8 +36,7 @@ exports.mode_development = mode_development;
 // Set the services base url for testing and production
 if(mode === mode_development)
 	{
-		//exports.woo_commerce_base_url = 'https://porterandyork.staging.wpengine.com';
-		exports.woo_commerce_base_url = 'https://www.porterandyork.com';
+		exports.woo_commerce_base_url = 'https://porterandyork.staging.wpengine.com';
 	}
 else
 	{

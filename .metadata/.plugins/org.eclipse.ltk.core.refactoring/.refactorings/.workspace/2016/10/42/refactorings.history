@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Porter and York Kiosk/Resources/ui/mainShopWindow/LoadingView.js&apos;" deleteContents="false" description="Delete resource &apos;Porter and York Kiosk/Resources/ui/mainShopWindow/LoadingView.js&apos;" element1="/Porter and York Kiosk/Resources/ui/mainShopWindow/LoadingView.js" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1476306494100"/>
+</session>

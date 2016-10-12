@@ -1,288 +1,74 @@
-Logger started at: Monday, October 3, 2016 5:12:26 PM PDT
+Logger started at: Wednesday, October 12, 2016 1:41:18 PM PDT
 Component: com.appcelerator.titanium.ios.core
 Version: 1.0.0.1473496749
-[12:26.822] Sent: >21*1475539946823*version<
-[12:26.823] Recv: >1475539946823*2*5.4.0<
-[12:26.824] Sent: >36*1475539946824*option*monitorXHR*true<
-[12:26.824] Recv: >1475539946824<
-[12:26.824] Sent: >45*1475539946825*option*suspendOnFirstLine*false<
-[12:26.825] Recv: >1475539946825<
-[12:26.825] Sent: >46*1475539946826*option*suspendOnExceptions*false<
-[12:26.825] Recv: >1475539946826<
-[12:26.825] Sent: >41*1475539946827*option*suspendOnErrors*true<
-[12:26.825] Recv: >1475539946827<
-[12:26.825] Sent: >43*1475539946828*option*suspendOnKeywords*true<
-[12:26.826] Recv: >1475539946828<
-[12:26.826] Sent: >45*1475539946829*option*bypassConstructors*false<
-[12:26.826] Recv: >1475539946829<
-[12:26.826] Sent: >45*1475539946830*option*stepFiltersEnabled*false<
-[12:26.826] Recv: >1475539946830<
-[12:26.826] Sent: >30*1475539946831*detailFormatters<
-[12:26.826] Recv: >1475539946831<
-[12:26.827] Sent: >67*1475539946832*breakpoint*create*app:/lib/WooCommClient.js*25*1*0**1<
-[12:26.828] Recv: >1475539946832*created<
-[12:26.828] Sent: >67*1475539946833*breakpoint*create*app:/ui/MainShopWindow.js*40*1*0**1<
-[12:26.829] Recv: >1475539946833*created<
-[12:26.829] Sent: >20*1475539946834*enable<
-[12:26.829] Recv: >1475539946834<
-[12:26.884] Recv: >threads*created*0*<
-[12:26.886] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/app.js, Resource: app_js<
-[12:26.889] Recv: >scripts*created*1|app:/app.js||1|13<
-[12:26.889] Recv: >resumed*0*started<
-[12:26.890] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/context.js, Resource: context_js<
-[12:26.890] Recv: >scripts*created*2|app:/context.js||1|15<
-[12:26.891] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/ui/MainShopWindow.js, Resource: ui/MainShopWindow_js<
-[12:26.891] Recv: >scripts*created*3|app:/ui/MainShopWindow.js||1|62<
-[12:26.892] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/lib/HttpClient.js, Resource: lib/HttpClient_js<
-[12:26.892] Recv: >scripts*created*4|app:/lib/HttpClient.js||1|153<
-[12:26.892] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/config.js, Resource: config_js<
-[12:26.893] Recv: >scripts*created*5|app:/config.js||1|65<
-[12:26.894] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/lib/WooCommClient.js, Resource: lib/WooCommClient_js<
-[12:26.894] Recv: >scripts*created*6|app:/lib/WooCommClient.js||1|40<
-[12:26.909] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter and York Kiosk.app/_app_props_.json, Resource: _app_props__json<
-[12:26.913] Recv: >log*out*[DEBUG] Application booted in 122.615993 ms<
-[12:33.904] Recv: >suspended*0*breakpoint*app:/ui/MainShopWindow.js*40<
-[12:33.905] Sent: >22*1475539946835*frames*0<
-[12:33.905] Recv: >1475539946835*0|||app:/ui/MainShopWindow.js|40|false|0|0<
-[12:34.344] Sent: >34*1475539946836*variables*0*frame[0]<
-[12:34.362] Recv: >1475539946836*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[12:39.146] Sent: >11**stepOver*0<
-[12:39.147] Recv: >resumed*0*stepOver<
-[12:39.147] Recv: >suspended*0*breakpoint*app:/lib/WooCommClient.js*25<
-[12:39.147] Sent: >22*1475539946837*frames*0<
-[12:39.148] Recv: >1475539946837*0|getProducts||app:/lib/WooCommClient.js|25|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[12:39.567] Sent: >34*1475539946838*variables*0*frame[0]<
-[12:39.568] Recv: >1475539946838*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|undefined|wl|undefined*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*module|object|ov|[object Object]<
-[12:53.218] Sent: >11**stepOver*0<
-[12:53.218] Recv: >resumed*0*stepOver<
-[12:53.218] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*27<
-[12:53.218] Sent: >22*1475539946839*frames*0<
-[12:53.219] Recv: >1475539946839*0|getProducts||app:/lib/WooCommClient.js|27|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[12:53.522] Sent: >34*1475539946840*variables*0*frame[0]<
-[12:53.523] Recv: >1475539946840*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*module|object|ov|[object Object]<
-[12:57.296] Sent: >11**stepOver*0<
-[12:57.297] Recv: >resumed*0*stepOver<
-[12:57.297] Recv: >log*out*[INFO] https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6<
-[12:57.302] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*31<
-[12:57.302] Sent: >22*1475539946841*frames*0<
-[12:57.303] Recv: >1475539946841*0|getProducts||app:/lib/WooCommClient.js|31|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[12:57.657] Sent: >34*1475539946842*variables*0*frame[0]<
-[12:57.658] Recv: >1475539946842*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*module|object|ov|[object Object]<
-[12:59.849] Sent: >11**stepOver*0<
-[12:59.849] Recv: >resumed*0*stepOver<
-[12:59.851] Recv: >suspended*0*requested*app:/ui/MainShopWindow.js*42<
-[12:59.851] Sent: >22*1475539946843*frames*0<
-[12:59.851] Recv: >1475539946843*0|||app:/ui/MainShopWindow.js|42|false|0|0<
-[13:0.264] Sent: >34*1475539946844*variables*0*frame[0]<
-[13:0.265] Recv: >1475539946844*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[13:7.601] Sent: >41*1475539946845*details*0*frame[0].products<
-[13:7.602] Recv: >1475539946845<
-[13:18.949] Sent: >9**resume*0<
-[13:18.949] Recv: >resumed*0*resume<
-[13:18.950] Recv: >suspended*0*exception*app:/ui/MainShopWindow.js*42<
-[13:18.951] Sent: >22*1475539946846*frames*0<
-[13:18.951] Recv: >1475539946846*0|||app:/ui/MainShopWindow.js|42|false|0|0<
-[13:19.297] Sent: >34*1475539946847*variables*0*frame[0]<
-[13:19.297] Recv: >1475539946847*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[13:22.294] Sent: >9**resume*0<
-[13:22.294] Recv: >resumed*0*resume<
-[13:22.295] Recv: >log*out*[ERROR] Script Error {
-    column = 26;
-    line = 42;
-    message = "undefined is not an object (evaluating 'products.length')";
-    sourceURL = "file:///Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter%20and%20York%20Kiosk.app/ui/MainShopWindow.js";
-    stack = "file:///Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter%20and%20York%20Kiosk.app/ui/MainShopWindow.js:42:26";
-}<
-[13:28.639] Recv: >suspended*0*breakpoint*app:/ui/MainShopWindow.js*40<
-[13:28.639] Sent: >22*1475539946848*frames*0<
-[13:28.639] Recv: >1475539946848*0|||app:/ui/MainShopWindow.js|40|false|0|0<
-[13:28.888] Sent: >34*1475539946849*variables*0*frame[0]<
-[13:28.889] Recv: >1475539946849*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[13:30.777] Sent: >41*1475539946850*details*0*frame[0].products<
-[13:30.778] Recv: >1475539946850<
-[13:30.895] Sent: >41*1475539946851*details*0*frame[0].products<
-[13:30.895] Recv: >1475539946851<
-[13:34.414] Sent: >41*1475539946852*details*0*frame[0].products<
-[13:34.415] Recv: >1475539946852<
-[13:36.156] Sent: >41*1475539946853*details*0*frame[0].products<
-[13:36.156] Recv: >1475539946853<
-[13:45.576] Sent: >11**stepInto*0<
-[13:45.576] Recv: >resumed*0*stepInto<
-[13:45.577] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*24<
-[13:45.577] Sent: >22*1475539946854*frames*0<
-[13:45.578] Recv: >1475539946854*0|getProducts||app:/lib/WooCommClient.js|24|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[13:46.180] Sent: >34*1475539946855*variables*0*frame[0]<
-[13:46.181] Recv: >1475539946855*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|undefined|wl|undefined*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[13:51.118] Sent: >11**stepInto*0<
-[13:51.119] Recv: >resumed*0*stepInto<
-[13:51.119] Recv: >suspended*0*breakpoint*app:/lib/WooCommClient.js*25<
-[13:51.119] Sent: >22*1475539946856*frames*0<
-[13:51.119] Recv: >1475539946856*0|getProducts||app:/lib/WooCommClient.js|25|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[13:51.413] Sent: >34*1475539946857*variables*0*frame[0]<
-[13:51.414] Recv: >1475539946857*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|undefined|wl|undefined*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[13:54.485] Sent: >11**stepInto*0<
-[13:54.486] Recv: >resumed*0*stepInto<
-[13:54.486] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*27<
-[13:54.486] Sent: >22*1475539946858*frames*0<
-[13:54.487] Recv: >1475539946858*0|getProducts||app:/lib/WooCommClient.js|27|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[13:54.788] Sent: >34*1475539946859*variables*0*frame[0]<
-[13:54.789] Recv: >1475539946859*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[13:56.774] Sent: >11**stepOver*0<
-[13:56.774] Recv: >resumed*0*stepOver<
-[13:56.774] Recv: >log*out*[INFO] https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6<
-[13:56.776] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*31<
-[13:56.776] Sent: >22*1475539946860*frames*0<
-[13:56.777] Recv: >1475539946860*0|getProducts||app:/lib/WooCommClient.js|31|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[13:57.65] Sent: >34*1475539946861*variables*0*frame[0]<
-[13:57.66] Recv: >1475539946861*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[14:12.30] Sent: >11**stepInto*0<
-[14:12.30] Recv: >resumed*0*stepInto<
-[14:12.31] Recv: >suspended*0*requested*app:/ui/MainShopWindow.js*42<
-[14:12.31] Sent: >22*1475539946862*frames*0<
-[14:12.32] Recv: >1475539946862*0|||app:/ui/MainShopWindow.js|42|false|0|0<
-[14:12.419] Sent: >34*1475539946863*variables*0*frame[0]<
-[14:12.420] Recv: >1475539946863*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[14:12.903] Sent: >41*1475539946864*details*0*frame[0].products<
-[14:12.904] Recv: >1475539946864<
-[14:13.24] Sent: >41*1475539946865*details*0*frame[0].products<
-[14:13.25] Recv: >1475539946865<
-[14:21.548] Sent: >9**resume*0<
-[14:21.549] Recv: >resumed*0*resume<
-[14:21.549] Recv: >suspended*0*exception*app:/ui/MainShopWindow.js*42<
-[14:21.549] Sent: >22*1475539946866*frames*0<
-[14:21.550] Recv: >1475539946866*0|||app:/ui/MainShopWindow.js|42|false|0|0<
-[14:21.824] Sent: >34*1475539946867*variables*0*frame[0]<
-[14:21.825] Recv: >1475539946867*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[14:22.130] Sent: >9**resume*0<
-[14:22.131] Recv: >resumed*0*resume<
-[14:22.131] Recv: >log*out*[ERROR] Script Error {
-    column = 26;
-    line = 42;
-    message = "undefined is not an object (evaluating 'products.length')";
-    sourceURL = "file:///Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter%20and%20York%20Kiosk.app/ui/MainShopWindow.js";
-    stack = "file:///Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/464A5FBB-A922-4708-8351-0E18DA9B9CB6/Porter%20and%20York%20Kiosk.app/ui/MainShopWindow.js:42:26";
-}<
-[14:27.638] Recv: >suspended*0*breakpoint*app:/ui/MainShopWindow.js*40<
-[14:27.638] Sent: >22*1475539946868*frames*0<
-[14:27.638] Recv: >1475539946868*0|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:27.883] Sent: >34*1475539946869*variables*0*frame[0]<
-[14:27.883] Recv: >1475539946869*MainShopWindow|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*label|object|nov|[object TiUILabel]*mainContainerView|object|nov|[object TiUIView]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*products|undefined|wl|undefined*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
-[14:29.588] Sent: >41*1475539946870*details*0*frame[0].products<
-[14:29.588] Recv: >1475539946870<
-[14:29.742] Sent: >41*1475539946871*details*0*frame[0].products<
-[14:29.742] Recv: >1475539946871<
-[14:32.374] Sent: >11**stepInto*0<
-[14:32.374] Recv: >resumed*0*stepInto<
-[14:32.375] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*24<
-[14:32.375] Sent: >22*1475539946872*frames*0<
-[14:32.375] Recv: >1475539946872*0|getProducts||app:/lib/WooCommClient.js|24|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:32.794] Sent: >34*1475539946873*variables*0*frame[0]<
-[14:32.794] Recv: >1475539946873*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|undefined|wl|undefined*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[14:34.824] Sent: >11**stepInto*0<
-[14:34.824] Recv: >resumed*0*stepInto<
-[14:34.825] Recv: >suspended*0*breakpoint*app:/lib/WooCommClient.js*25<
-[14:34.825] Sent: >22*1475539946874*frames*0<
-[14:34.826] Recv: >1475539946874*0|getProducts||app:/lib/WooCommClient.js|25|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:35.108] Sent: >34*1475539946875*variables*0*frame[0]<
-[14:35.109] Recv: >1475539946875*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|undefined|wl|undefined*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[14:36.50] Sent: >11**stepInto*0<
-[14:36.50] Recv: >resumed*0*stepInto<
-[14:36.51] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*27<
-[14:36.51] Sent: >22*1475539946876*frames*0<
-[14:36.51] Recv: >1475539946876*0|getProducts||app:/lib/WooCommClient.js|27|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:36.364] Sent: >34*1475539946877*variables*0*frame[0]<
-[14:36.365] Recv: >1475539946877*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[14:39.638] Sent: >11**stepInto*0<
-[14:39.638] Recv: >resumed*0*stepInto<
-[14:39.639] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*34<
-[14:39.639] Sent: >22*1475539946878*frames*0<
-[14:39.639] Recv: >1475539946878*0|buildUrl|endpoint|app:/lib/WooCommClient.js|34|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:39.933] Sent: >34*1475539946879*variables*0*frame[0]<
-[14:39.934] Recv: >1475539946879*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]*url|undefined|wl|undefined<
-[14:40.917] Sent: >11**stepInto*0<
-[14:40.918] Recv: >resumed*0*stepInto<
-[14:40.918] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*35<
-[14:40.919] Sent: >22*1475539946880*frames*0<
-[14:40.919] Recv: >1475539946880*0|buildUrl|endpoint|app:/lib/WooCommClient.js|35|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:41.215] Sent: >34*1475539946881*variables*0*frame[0]<
-[14:41.215] Recv: >1475539946881*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]*url|undefined|wl|undefined<
-[14:42.71] Sent: >11**stepInto*0<
-[14:42.72] Recv: >resumed*0*stepInto<
-[14:42.72] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*36<
-[14:42.73] Sent: >22*1475539946882*frames*0<
-[14:42.73] Recv: >1475539946882*0|buildUrl|endpoint|app:/lib/WooCommClient.js|36|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:42.368] Sent: >34*1475539946883*variables*0*frame[0]<
-[14:42.369] Recv: >1475539946883*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products"<
-[14:43.196] Sent: >11**stepInto*0<
-[14:43.196] Recv: >resumed*0*stepInto<
-[14:43.196] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*37<
-[14:43.196] Sent: >22*1475539946884*frames*0<
-[14:43.197] Recv: >1475539946884*0|buildUrl|endpoint|app:/lib/WooCommClient.js|37|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:43.478] Sent: >34*1475539946885*variables*0*frame[0]<
-[14:43.479] Recv: >1475539946885*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"<
-[14:44.502] Sent: >11**stepInto*0<
-[14:44.502] Recv: >resumed*0*stepInto<
-[14:44.502] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*37<
-[14:44.502] Sent: >22*1475539946886*frames*0<
-[14:44.503] Recv: >1475539946886*0|buildUrl|endpoint|app:/lib/WooCommClient.js|37|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:44.777] Sent: >34*1475539946887*variables*0*frame[0]<
-[14:44.778] Recv: >1475539946887*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"<
-[14:45.974] Sent: >11**stepInto*0<
-[14:45.975] Recv: >resumed*0*stepInto<
-[14:45.976] Recv: >suspended*0*requested*app:/lib/HttpClient.js*54<
-[14:45.976] Sent: >22*1475539946888*frames*0<
-[14:45.976] Recv: >1475539946888*0|doGet|url, callback|app:/lib/HttpClient.js|54|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:46.367] Sent: >34*1475539946889*variables*0*frame[0]<
-[14:46.367] Recv: >1475539946889*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|undefined|wl|undefined<
-[14:48.585] Sent: >11**stepInto*0<
-[14:48.586] Recv: >resumed*0*stepInto<
-[14:48.586] Recv: >suspended*0*requested*app:/lib/HttpClient.js*55<
-[14:48.586] Sent: >22*1475539946890*frames*0<
-[14:48.587] Recv: >1475539946890*0|doGet|url, callback|app:/lib/HttpClient.js|55|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:48.898] Sent: >34*1475539946891*variables*0*frame[0]<
-[14:48.899] Recv: >1475539946891*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|undefined|wl|undefined<
-[14:49.383] Sent: >11**stepInto*0<
-[14:49.384] Recv: >resumed*0*stepInto<
-[14:49.384] Recv: >log*out*[INFO] https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6<
-[14:49.385] Recv: >suspended*0*requested*app:/lib/HttpClient.js*57<
-[14:49.385] Sent: >22*1475539946892*frames*0<
-[14:49.385] Recv: >1475539946892*0|doGet|url, callback|app:/lib/HttpClient.js|57|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:49.684] Sent: >34*1475539946893*variables*0*frame[0]<
-[14:49.685] Recv: >1475539946893*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|undefined|wl|undefined<
-[14:50.174] Sent: >11**stepInto*0<
-[14:50.175] Recv: >resumed*0*stepInto<
-[14:50.176] Recv: >suspended*0*requested*app:/lib/HttpClient.js*88<
-[14:50.176] Sent: >22*1475539946894*frames*0<
-[14:50.177] Recv: >1475539946894*0|doGet|url, callback|app:/lib/HttpClient.js|88|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:50.527] Sent: >34*1475539946895*variables*0*frame[0]<
-[14:50.528] Recv: >1475539946895*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|object|nol|[object TiNetworkHTTPClient]<
-[14:51.774] Sent: >11**stepInto*0<
-[14:51.775] Recv: >resumed*0*stepInto<
-[14:51.776] Recv: >suspended*0*requested*app:/lib/HttpClient.js*89<
-[14:51.776] Sent: >22*1475539946896*frames*0<
-[14:51.776] Recv: >1475539946896*0|doGet|url, callback|app:/lib/HttpClient.js|89|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:52.61] Sent: >34*1475539946897*variables*0*frame[0]<
-[14:52.61] Recv: >1475539946897*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|object|nol|[object TiNetworkHTTPClient]<
-[14:52.517] Sent: >11**stepInto*0<
-[14:52.517] Recv: >resumed*0*stepInto<
-[14:52.518] Recv: >suspended*0*requested*app:/lib/HttpClient.js*90<
-[14:52.518] Sent: >22*1475539946898*frames*0<
-[14:52.518] Recv: >1475539946898*0|doGet|url, callback|app:/lib/HttpClient.js|90|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:52.811] Sent: >34*1475539946899*variables*0*frame[0]<
-[14:52.811] Recv: >1475539946899*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|object|nol|[object TiNetworkHTTPClient]<
-[14:53.382] Sent: >11**stepInto*0<
-[14:53.382] Recv: >resumed*0*stepInto<
-[14:53.383] Recv: >suspended*0*requested*app:/lib/HttpClient.js*91<
-[14:53.383] Sent: >22*1475539946900*frames*0<
-[14:53.384] Recv: >1475539946900*0|doGet|url, callback|app:/lib/HttpClient.js|91|false|0|0*1|getProducts||app:/lib/WooCommClient.js|27|false|0|0*2|||app:/ui/MainShopWindow.js|40|false|0|0<
-[14:53.723] Sent: >34*1475539946901*variables*0*frame[0]<
-[14:53.723] Recv: >1475539946901*arguments|object|opnl|[object Arguments]*callback|object|l|[object Function]*config|object|ov|[object Object]*exports|object|ov|[object Object]*getHttpClientErrorResponse|object|v|[object Function]*i|number|wv|0*module|object|ov|[object Object]*url|string|wl|"https://porterandyork.staging.wpengine.com/wp-json/wc/v1/products?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6"*xhr|object|nol|[object TiNetworkHTTPClient]<
-[15:3.360] Sent: >11**stepInto*0<
-[15:3.360] Recv: >resumed*0*stepInto<
-[15:3.361] Recv: >suspended*0*requested*app:/lib/WooCommClient.js*31<
-[15:3.361] Sent: >22*1475539946902*frames*0<
-[15:3.361] Recv: >1475539946902*0|getProducts||app:/lib/WooCommClient.js|31|false|0|0*1|||app:/ui/MainShopWindow.js|40|false|0|0<
-[15:3.761] Sent: >34*1475539946903*variables*0*frame[0]<
-[15:3.762] Recv: >1475539946903*arguments|object|opnl|[object Arguments]*buildUrl|object|v|[object Function]*config|object|ov|[object Object]*endpoint|string|wl|"/wp-json/wc/v1/products"*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*i|number|wv|0*module|object|ov|[object Object]<
-[15:16.27] Sent: >10**terminate<
+[41:18.31] Sent: >21*1476304878031*version<
+[41:18.31] Recv: >1476304878031*2*5.4.0<
+[41:18.32] Sent: >36*1476304878032*option*monitorXHR*true<
+[41:18.32] Recv: >1476304878032<
+[41:18.32] Sent: >45*1476304878033*option*stepFiltersEnabled*false<
+[41:18.33] Recv: >1476304878033<
+[41:18.33] Sent: >45*1476304878034*option*suspendOnFirstLine*false<
+[41:18.33] Recv: >1476304878034<
+[41:18.33] Sent: >46*1476304878035*option*suspendOnExceptions*false<
+[41:18.34] Recv: >1476304878035<
+[41:18.34] Sent: >41*1476304878036*option*suspendOnErrors*true<
+[41:18.34] Recv: >1476304878036<
+[41:18.34] Sent: >43*1476304878037*option*suspendOnKeywords*true<
+[41:18.34] Recv: >1476304878037<
+[41:18.34] Sent: >45*1476304878038*option*bypassConstructors*false<
+[41:18.35] Recv: >1476304878038<
+[41:18.35] Sent: >45*1476304878039*option*stepFiltersEnabled*false<
+[41:18.35] Recv: >1476304878039<
+[41:18.35] Sent: >30*1476304878040*detailFormatters<
+[41:18.35] Recv: >1476304878040<
+[41:18.35] Sent: >63*1476304878041*breakpoint*create*app:/local-storage.js*10*1*0**1<
+[41:18.37] Recv: >1476304878041*created<
+[41:18.37] Sent: >20*1476304878042*enable<
+[41:18.37] Recv: >1476304878042<
+[41:18.129] Recv: >threads*created*0*<
+[41:18.131] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/app.js, Resource: app_js<
+[41:18.134] Recv: >scripts*created*1|app:/app.js||1|13<
+[41:18.134] Recv: >resumed*0*started<
+[41:18.135] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/context.js, Resource: context_js<
+[41:18.136] Recv: >scripts*created*2|app:/context.js||1|15<
+[41:18.136] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/ui/mainShopWindow/MainShopWindow.js, Resource: ui/mainShopWindow/MainShopWindow_js<
+[41:18.136] Recv: >scripts*created*3|app:/ui/mainShopWindow/MainShopWindow.js||1|119<
+[41:18.137] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/lib/HttpClient.js, Resource: lib/HttpClient_js<
+[41:18.137] Recv: >scripts*created*4|app:/lib/HttpClient.js||1|153<
+[41:18.137] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/config.js, Resource: config_js<
+[41:18.138] Recv: >scripts*created*5|app:/config.js||1|65<
+[41:18.139] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/lib/WooCommClient.js, Resource: lib/WooCommClient_js<
+[41:18.139] Recv: >scripts*created*6|app:/lib/WooCommClient.js||1|74<
+[41:18.139] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/local-storage.js, Resource: local-storage_js<
+[41:18.140] Recv: >scripts*created*7|app:/local-storage.js||1|53<
+[41:18.140] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/ui/mainShopWindow/CategoryDock.js, Resource: ui/mainShopWindow/CategoryDock_js<
+[41:18.140] Recv: >scripts*created*8|app:/ui/mainShopWindow/CategoryDock.js||1|107<
+[41:18.142] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/_app_props_.json, Resource: _app_props__json<
+[41:18.152] Recv: >log*out*[DEBUG] Application booted in 154.816985 ms<
+[41:18.198] Recv: >log*out*[WARN] New layout set while view [object TiUIView] animating: Will relayout after animation.<
+[41:22.516] Recv: >log*out*[INFO] https://porterandyork.staging.wpengine.com/wc-api/v3/products/?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6&filter[meta]=true&filter[limit]=100<
+[41:26.910] Recv: >suspended*0*breakpoint*app:/local-storage.js*10<
+[41:26.911] Sent: >22*1476304878043*frames*0<
+[41:26.911] Recv: >1476304878043*0|storeProducts|products|app:/local-storage.js|10|false|0|0*1|filterAndStoreProducts|products|app:/lib/WooCommClient.js|69|false|0|0*2||success, res|app:/lib/WooCommClient.js|39|false|0|0*3|onload|e|app:/lib/HttpClient.js|60|false|0|0<
+[41:27.229] Sent: >34*1476304878044*variables*0*frame[0]<
+[41:27.231] Recv: >1476304878044*arguments|object|opnl|[object Arguments]*beef|undefined|wl|undefined*chicken|undefined|wl|undefined*exports|object|ov|[object Object]*i|undefined|wl|undefined*lamb|undefined|wl|undefined*module|object|ov|[object Object]*pork|undefined|wl|undefined*products|object|wnol|[object Array]*seafood|undefined|wl|undefined*storedProducts|object|ov|[object Object]<
+[41:27.543] Sent: >43*1476304878045*variables*0*frame[0].products<
+[41:27.545] Recv: >1476304878045*0|object|ol|[object Object]*1|object|ol|[object Object]*2|object|ol|[object Object]*3|object|ol|[object Object]<
+[41:36.841] Sent: >45*1476304878046*variables*0*frame[0].products.0<
+[41:36.842] Recv: >1476304878046*attributes|object|wnol|[object Array]*average_rating|string|wl|"0.00"*backordered|boolean|wl|false*backorders_allowed|boolean|wl|false*button_text|string|wl|""*catalog_visibility|string|wl|"visible"*categories|object|wnol|[object Array]*created_at|string|wl|"2016-09-06T21:33:56Z"*cross_sell_ids|object|wnol|[object Array]*description|string|wl|"<p>$20 Gift Card</p>
+"*dimensions|object|ol|[object Object]*download_expiry|number|wl|0*download_limit|number|wl|0*download_type|string|wl|""*downloadable|boolean|wl|false*downloads|object|wnol|[object Array]*featured|boolean|wl|false*featured_src|string|wl|"https://porterandyork.staging.wpengine.com/wp-content/uploads/gift-cards21.jpg"*grouped_products|object|wnol|[object Array]*id|number|wl|13424*images|object|wnol|[object Array]*in_stock|boolean|wl|true*managing_stock|boolean|wl|false*menu_order|number|wl|1*on_sale|boolean|wl|false*parent|object|wnol|[object Array]*parent_id|number|wl|0*permalink|string|wl|"https://porterandyork.staging.wpengine.com/pro...1116<
+[41:42.573] Sent: >56*1476304878047*variables*0*frame[0].products.0.categories<
+[41:42.575] Recv: >1476304878047<
+[41:45.884] Sent: >54*1476304878048*details*0*frame[0].products.0.created_at<
+[41:45.886] Recv: >1476304878048<
+[41:46.534] Sent: >54*1476304878049*details*0*frame[0].products.0.categories<
+[41:46.536] Recv: >1476304878049<
+[41:56.308] Sent: >45*1476304878050*variables*0*frame[0].products.1<
+[42:15.666] Sent: >54*1476304878051*details*0*frame[0].products.0.categories<
+[42:15.668] Recv: >1476304878050*attributes|object|wnol|[object Array]*average_rating|string|wl|"0.00"*backordered|boolean|wl|false*backorders_allowed|boolean|wl|false*button_text|string|wl|""*catalog_visibility|string|wl|"visible"*categories|object|wnol|[object Array]*created_at|string|wl|"2013-10-04T21:42:48Z"*cross_sell_ids|object|wnol|[object Array]*description|string|wl|"<h3>Buy filet mignon from Porter &amp; York and you get Natural Angus or Prime Filet, perfectly aged at 28 days, Shipped fresh, never frozen. Taste the difference.</h3>
+<p><a href="/wp-content/uploads/2013/10/diagram-filet.png"><img class="alignright img-responsive" src="/wp-content/uploads/2013/10/diagram-filet.png" alt="buy filet mignon diagram" /></a>When you buy<strong> filet mignon</strong> from Porter &amp; York , you’re getting fresh, not frozen beef that is rich and will melt in your mouth. Known for its superior tender texture, this cut is commonly known as a Tenderloin Steak. The Filet, or <a title="Buy Beef Tenderloin Roast – Shipped Fresh Never...3262<
+[42:19.629] Sent: >56*1476304878052*breakpoint*remove*app:/local-storage.js*10<
+[42:21.775] Sent: >63*1476304878053*breakpoint*create*app:/local-storage.js*10*1*0**1<
+[42:24.670] Sent: >10**terminate<
+[42:24.670] Sent: >10**terminate<
 ----------End of file----------

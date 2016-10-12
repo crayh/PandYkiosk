@@ -89,11 +89,13 @@ function CategoryDock(args){
 	};
 	
 	categoryDock.scrollEndCallback = function(e){
-		for(var k=0; k<categoryViews.length; k++){
-			if(k == e.currentPage){
-				categoryViews[k].activate();
-			}else{
-				categoryViews[k].deactivate();
+		if(!e.source.nested){   							//This nested check prevents a vertical scrollend from calling this event and messing up the docks active index
+			for(var k=0; k<categoryViews.length; k++){
+				if(k == e.currentPage){
+					categoryViews[k].activate();
+				}else{
+					categoryViews[k].deactivate();
+				}
 			}
 		}
 	};

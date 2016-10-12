@@ -4,6 +4,7 @@
  */
 var httpClient = require('/lib/HttpClient');
 var config = require('config');
+var localStorage = require('local-storage');
 
 exports.getIndex = function(){
 	var endpoint = '/wp-json/wc/v1';
@@ -35,7 +36,7 @@ exports.getProducts = function(productId, callback){
 	
 	httpClient.doGet(url, function(success, res){
 		if(success){
-			callback(filterProducts(res.products));
+			callback(filterAndStoreProducts(res.products));
 		}else{
 			//TODO error handler
 		}
@@ -55,9 +56,8 @@ function buildUrl(endpoint){
  * In dev, all products are returned.  Prod is only published and in-stock products.
  * 
  */ 
-function filterProducts(products){
-	Ti.API.info(products);
-	Ti.API.info(products.length);
+function filterAndStoreProducts(products){
+	
 	products = products.filter(function(product){
 		if (product.status === 'publish' && product.product_meta.grocery_kiosk_product){
 			return true;
@@ -66,6 +66,7 @@ function filterProducts(products){
 		};
 	});
 	
-	Ti.API.info(products.length);
+	products = localStorage.storeProducts(products);
+	
 	return products;
 }
