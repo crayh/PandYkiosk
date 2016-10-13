@@ -13,7 +13,7 @@ var mode_development = 'development';
 
 
 //app colors
-exports.purple = "#7945AD";
+exports.darkBrown = "#2C2318";
 
 /**
  * Set the application mode - this can be used to add code that does not run in simulation

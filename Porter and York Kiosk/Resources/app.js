@@ -31,7 +31,7 @@ Titanium.UI.setBackgroundColor('#000');
 		function InstantiateShopWindow(){
 			mainShopWindow = new MainShopWindow();
 		
-			var touchTime = 60; 
+			var touchTime = 80; 
 			var timer;
 
 			function timeCheck(){
@@ -40,7 +40,7 @@ Titanium.UI.setBackgroundColor('#000');
 				if(touchTime < 0){
 					closeShop();
 				}
-				else if(touchTime < 50){
+				else if(touchTime < 20){
 					mainShopWindow.showPrompt(touchTime);
 				}
 				else{
@@ -54,12 +54,12 @@ Titanium.UI.setBackgroundColor('#000');
 			
 			mainShopWindow.addEventListener('close', function(e){
 				clearInterval(timer);
-				touchTime = 60;
+				touchTime = 80;
 			});
 			
 			mainShopWindow.addEventListener('touchstart', function(e){
 				Ti.API.info('touch');
-				touchTime = 60;
+				touchTime = 80;
 			});
 		}
 		
@@ -70,9 +70,12 @@ Titanium.UI.setBackgroundColor('#000');
 			
 			wooClient.getProducts('all', function(success, products){
 				if(success){
-					InstantiateShopWindow();
-					mainShopWindow.open();
-					loadingWindow.close();
+					var dramaticDelay = setTimeout(function(){
+						InstantiateShopWindow();
+						mainShopWindow.open();
+						loadingWindow.close();
+					}, 3500);
+					
 				}else{
 					alert(error);
 				}
