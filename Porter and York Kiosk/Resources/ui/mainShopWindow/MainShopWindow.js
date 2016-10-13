@@ -8,8 +8,8 @@ function MainShopWindow(args){
 	
 	var httpClient = require('lib/HttpClient');
 	var wooClient = require('lib/WooCommClient');
-	var LoadingView = require('ui/mainShopWindow/LoadingView');
 	var CategoryDock = require('ui/mainShopWindow/CategoryDock');
+	var PromptView = require('ui/mainShopWindow/PromptView');
 	
 	var win = Ti.UI.createWindow({
 		width: '100%',
@@ -18,9 +18,6 @@ function MainShopWindow(args){
 		opacity: 0.0,
 		fullscreen: true
 	});
-	
-	var loadingView = new LoadingView();
-	win.add(loadingView);
 	
 	var postLayoutCallback = function(e){
 		win.removeEventListener('postlayout', postLayoutCallback);
@@ -54,65 +51,43 @@ function MainShopWindow(args){
 	
 	win.addEventListener('open', windowOpenCallback);
 	
+	/**
+	 * "Stil Shopping?" prompt stuff.  Called by app.js
+	 */
+	var promptView = new PromptView();
+	
+		promptView.addEventListener('touchstart', function(){
+			win.fireEvent('touchstart');
+		});
+	
+	win.add(promptView);
+	
+	win.showPrompt = function(time){
+		promptView.updateTimer(time);
+		promptView.show();
+	};
+	
+	win.hidePrompt = function(){
+		promptView.hide();
+	};
+	
 	var scrollableView = Ti.UI.createScrollableView({
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL,
-		backgroundColor: 'red'
+		backgroundColor: 'red',
 	});
-	
 	
 	var view1 = Ti.UI.createView({
-			backgroundColor: 'orange',
-			height: 3000,
-			width: Ti.UI.FILL
-	}),
-		view2 = Ti.UI.createView({
-			backgroundColor: 'blue',
-			height: 3000,
-			width: Ti.UI.FILL
-	}),
-		view3 = Ti.UI.createView({
-			backgroundColor: 'green',
-			height: 3000,
-			width: Ti.UI.FILL
+		height: Ti.UI.FILL,
+		width: Ti.UI.FILL,
+		backgroundColor: 'orange'
 	});
 	
-	var scrollView1 = Ti.UI.createScrollView({
-		top: 0,
-		width: Ti.UI.FILL,
-		height: Ti.UI.SIZE,
-		backgroundColor: 'pink',
-		showVerticalScrollIndicator: true,
-		nested: true
-	}),
-		scrollView2 = Ti.UI.createScrollView({
-		top: 0,
-		width: Ti.UI.FILL,
-		height: Ti.UI.SIZE,
-		backgroundColor: 'purple',
-		showVerticalScrollIndicator: true,
-		nested: true
-	}),
-		scrollView3 = Ti.UI.createScrollView({
-		top: 0,
-		width: Ti.UI.FILL,
-		height: Ti.UI.SIZE,
-		backgroundColor: 'red',
-		showVerticalScrollIndicator: true,
-		nested: true
-	});
-	
-	view1.addEventListener('click', function(){
-		wooClient.getProducts('all', function(products){
-			Ti.API.info(products);
+	scrollableView.setViews([view1]);
+		scrollableView.addEventListener('touchStart', function(){
+			Ti.API.info('scrolltouch');
+			win.fireEvent('touchstart');
 		});
-	});
-	
-	scrollView1.add(view1);
-	scrollView2.add(view2);
-	scrollView3.add(view3);
-	
-	scrollableView.setViews([scrollView1, scrollView2, scrollView3]);
 	
 	win.add(scrollableView);
 	

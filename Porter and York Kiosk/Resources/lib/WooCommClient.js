@@ -36,9 +36,9 @@ exports.getProducts = function(productId, callback){
 	
 	httpClient.doGet(url, function(success, res){
 		if(success){
-			callback(filterAndStoreProducts(res.products));
+			callback(true, filterAndStoreProducts(res.products));
 		}else{
-			//TODO error handler
+			callback(false, res);
 		}
 		
 	});

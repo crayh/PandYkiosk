@@ -15704,3 +15704,497 @@ java.lang.NullPointerException
 
 !ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 14:14:41.505
 !MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.android.core 4 0 2016-10-12 15:31:56.303
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  A new update (5.5.1) is available... Download with appc use 5.5.1
+{
+	"android": {
+		"linux64bit": null,
+		"sdk": {
+			"path": "/Users/colehalverson/Library/android-sdk-macosx",
+			"executables": {
+				"dx": "/Users/colehalverson/Library/android-sdk-macosx/build-tools/23.0.1/dx",
+				"aidl": "/Users/colehalverson/Library/android-sdk-macosx/build-tools/23.0.1/aidl",
+				"aapt": "/Users/colehalverson/Library/android-sdk-macosx/build-tools/23.0.1/aapt",
+				"zipalign": "/Users/colehalverson/Library/android-sdk-macosx/build-tools/23.0.1/zipalign",
+				"mksdcard": "/Users/colehalverson/Library/android-sdk-macosx/tools/mksdcard",
+				"emulator": "/Users/colehalverson/Library/android-sdk-macosx/tools/emulator",
+				"android": "/Users/colehalverson/Library/android-sdk-macosx/tools/android",
+				"adb": "/Users/colehalverson/Library/android-sdk-macosx/platform-tools/adb"
+			},
+			"dx": "/Users/colehalverson/Library/android-sdk-macosx/build-tools/23.0.1/lib/dx.jar",
+			"proguard": "/Users/colehalverson/Library/android-sdk-macosx/tools/proguard/lib/proguard.jar",
+			"tools": {
+				"path": "/Users/colehalverson/Library/android-sdk-macosx/tools",
+				"supported": "maybe",
+				"version": "24.4.1"
+			},
+			"platformTools": {
+				"path": "/Users/colehalverson/Library/android-sdk-macosx/platform-tools",
+				"supported": true,
+				"version": "23.1.0"
+			},
+			"buildTools": {
+				"path": "/Users/colehalverson/Library/android-sdk-macosx/build-tools/23.0.1",
+				"supported": true,
+				"version": "23.0.1",
+				"tooNew": true,
+				"maxSupported": "<23.x"
+			}
+		},
+		"ndk": null,
+		"home": "/Users/colehalverson/.android",
+		"detectVersion": "2.0",
+		"vendorDependencies": {
+			"android sdk": "23",
+			"android build tools": ">=17 <23.x",
+			"android platform tools": ">=17 <=23.x",
+			"android tools": "<=24.3.x",
+			"android ndk": ">=r8e <=r9",
+			"node": ">=0.10.0 <=0.12.x",
+			"java": "<=1.8.x"
+		},
+		"targets": {
+			"1": {
+				"id": "android-21",
+				"abis": [
+					"armeabi-v7a",
+					"x86",
+					"x86_64"
+				],
+				"skins": [
+					"HVGA",
+					"QVGA",
+					"WQVGA400",
+					"WQVGA432",
+					"WSVGA",
+					"WVGA800",
+					"WVGA854",
+					"WXGA720",
+					"WXGA800",
+					"WXGA800-7in",
+					"AndroidWearRound",
+					"AndroidWearSquare"
+				],
+				"name": "Android 5.0.1",
+				"type": "platform",
+				"api-level": 21,
+				"revision": 2,
+				"path": "/Users/colehalverson/Library/android-sdk-macosx/platforms/android-21",
+				"sdk": 21,
+				"version": "5.0.1",
+				"androidJar": "/Users/colehalverson/Library/android-sdk-macosx/platforms/android-21/android.jar",
+				"supported": false,
+				"aidl": "/Users/colehalverson/Library/android-sdk-macosx/platforms/android-21/framework.aidl"
+			},
+			"2": {
+				"id": "Google Inc.:Google APIs:21",
+				"abis": [
+					"armeabi-v7a",
+					"x86",
+					"x86_64"
+				],
+				"skins": [
+					"HVGA",
+					"QVGA",
+					"WQVGA400",
+					"WQVGA432",
+					"WSVGA",
+					"WVGA800",
+					"WVGA854",
+					"WXGA720",
+					"WXGA800",
+					"WXGA800-7in",
+					"AndroidWearRound",
+					"AndroidWearSquare"
+				],
+				"name": "Google APIs",
+				"type": "add-on",
+				"vendor": "Google Inc.",
+				"revision": 1,
+				"description": "Android + Google APIs",
+				"based-on": {
+					"android-version": "5.0.1",
+					"api-level": 21
+				},
+				"libraries": {
+					"com.android.future.usb.accessory": {
+						"jar": "usb.jar",
+						"description": "API for USB Accessories"
+					},
+					"com.google.android.media.effects": {
+						"jar": "effects.jar",
+						"description": "Collection of video effects"
+					},
+					"com.google.android.maps": {
+						"jar": "maps.jar",
+						"description": "API for Google Maps"
+					}
+				},
+				"path": "/Users/colehalverson/Library/android-sdk-macosx/add-ons/addon-google_apis-google-21",
+				"version": "5.0.1",
+				"androidJar": "/Users/colehalverson/Library/android-sdk-macosx/platforms/android-21/android.jar",
+				"supported": false,
+				"aidl": "/Users/colehalverson/Library/android-sdk-macosx/platforms/android-21/framework.aidl"
+			}
+		},
+		"issues": [
+			{
+				"id": "ANDROID_NDK_NOT_FOUND",
+				"type": "warning",
+				"message": "Unable to locate an Android NDK.\nWithout the NDK, you will not be able to build native Android Titanium modules.\nIf you have already downloaded and installed the Android NDK, you can tell Titanium where the Android NDK is located by running '__titanium config android.ndkPath /path/to/android-ndk__', otherwise you can install it by running '__titanium setup android__' or manually downloading from __http://appcelerator.com/android-ndk__."
+			},
+			{
+				"id": "ANDROID_API_TOO_OLD",
+				"type": "warning",
+				"message": "Android API __Android 5.0.1 (android-21)__ is too old and is no longer supported by Titanium SDK 6.0.0.\nThe minimum supported Android API level by Titanium SDK 6.0.0 is API level 23."
+			},
+			{
+				"id": "ANDROID_API_TOO_OLD",
+				"type": "warning",
+				"message": "Android API __Google APIs (Google Inc.:Google APIs:21)__ is too old and is no longer supported by Titanium SDK 6.0.0.\nThe minimum supported Android API level by Titanium SDK 6.0.0 is API level 23."
+			},
+			{
+				"id": "ANDROID_NO_VALID_APIS",
+				"type": "warning",
+				"message": "No valid Android APIs found that are supported by Titanium SDK 6.0.0.\nRun '__/Users/colehalverson/Library/android-sdk-macosx/tools/android__' to install the latest Android APIs."
+			},
+			{
+				"id": "ANDROID_INVALID_EMULATOR",
+				"type": "warning",
+				"message": "The Android emulator \"4_7_WXGA_API_17\" has a problem:\nUnknown target 'android-17' in /Users/colehalverson/.android/avd/4_7_WXGA_API_17.ini"
+			}
+		],
+		"tisdk": "6.0.0.v20160208111400",
+		"devices": [],
+		"emulators": [
+			{
+				"type": "avd",
+				"name": "Nexus_5_API_21",
+				"device": "Nexus 5 (Google)",
+				"path": "/Users/colehalverson/.android/avd/Nexus_5_API_21.avd",
+				"target": "Google APIs (Google Inc.)",
+				"based-on": {
+					"android-version": "5.0.1",
+					"api-level": 21
+				},
+				"abi": "x86_64",
+				"skin": "1080x1920",
+				"sdcard": "/Users/colehalverson/.android/avd/Nexus_5_API_21.avd/sdcard.img",
+				"snapshot": "yes",
+				"googleApis": true,
+				"sdk-version": "5.0.1",
+				"api-level": 21,
+				"id": "Nexus_5_API_21"
+			},
+			{
+				"type": "avd",
+				"name": "Nexus_S_API_21",
+				"device": "Nexus S (Google)",
+				"path": "/Users/colehalverson/.android/avd/Nexus_S_API_21.avd",
+				"target": "Google APIs (Google Inc.)",
+				"based-on": {
+					"android-version": "5.0.1",
+					"api-level": 21
+				},
+				"abi": "x86_64",
+				"skin": "nexus_s",
+				"sdcard": "/Users/colehalverson/.android/avd/Nexus_S_API_21.avd/sdcard.img",
+				"snapshot": "no",
+				"googleApis": true,
+				"sdk-version": "5.0.1",
+				"api-level": 21,
+				"id": "Nexus_S_API_21"
+			}
+		]
+	}
+}
+!STACK 0
+Unexpected character (A) at position 0.
+	at org.json.simple.parser.Yylex.yylex(Yylex.java:611)
+	at org.json.simple.parser.JSONParser.nextToken(JSONParser.java:270)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:119)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:82)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:76)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.loadTiInfo(AndroidSDKLocator.java:841)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.updateTiInfo(AndroidSDKLocator.java:224)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.access$0(AndroidSDKLocator.java:222)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator$1.run(AndroidSDKLocator.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 15:50:40.280
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 15:50:40.281
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 15:51:28.262
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 15:51:28.264
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 15:58:30.160
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 15:58:30.162
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:00:20.474
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:00:20.475
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:03:25.581
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:03:25.581
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:04:13.962
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:04:13.964
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:32:44.470
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:32:44.471
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:33:27.480
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:33:27.483
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:33:47.924
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:33:47.924
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:35:33.194
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:35:33.194
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:36:21.045
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:36:21.045
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:51:42.178
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 16:51:42.180
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:24:19.763
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:24:19.764
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:29:09.337
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:29:09.340
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:30:01.801
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:30:01.802
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:36:16.329
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:36:16.329
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:37:23.528
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-12 17:37:23.529
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.aptana.git.core 4 1 2016-10-12 17:53:42.787
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2016-10-12 17:53:42.787
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/colehalverson/Documents/PandY/local git/PandYkiosk"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/colehalverson/Documents/PandY/local git/PandYkiosk"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:248)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2016-10-12 17:53:42.788
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/colehalverson/Documents/PandY/local git/PandYkiosk"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/colehalverson/Documents/PandY/local git/PandYkiosk"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:248)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2016-10-12 17:53:42.788
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/colehalverson/Documents/PandY/local git/PandYkiosk"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/colehalverson/Documents/PandY/local git/PandYkiosk"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:248)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 16 more
+!SESSION 2016-10-13 10:10:13.037 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/colehalverson/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/colehalverson/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-13 10:10:17.668
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:10:24.620
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:10:24.625
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2016-10-13 10:10:38.630
+!MESSAGE (Build 4.7.1.201609100950) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:50:20.337
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:50:20.338
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:51:24.335
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:51:24.336
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:54:05.327
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:54:05.327
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:59:43.707
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 10:59:43.707
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:00:48.096
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:00:48.096
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:05:00.645
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:05:00.654
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:11:00.917
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:11:00.917
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:20:01.177
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:20:01.178
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:22:58.139
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:22:58.139
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:25:06.923
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:25:06.923
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:32:57.739
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:32:57.742
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:36:16.134
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2016-10-13 11:36:16.134
+!MESSAGE (Build 4.7.1.201609100950) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
