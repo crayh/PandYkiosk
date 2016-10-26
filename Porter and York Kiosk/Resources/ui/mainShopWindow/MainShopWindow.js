@@ -3,20 +3,25 @@
  * 
  * @author Cole Halverson
  */
+		
 
 function MainShopWindow(args){
 	
 	var httpClient = require('lib/HttpClient');
 	var wooClient = require('lib/WooCommClient');
+	var localStorage = require('local-storage');
 	var CategoryDock = require('ui/mainShopWindow/CategoryDock');
+	var CategoryView = require('ui/mainShopWindow/CategoryView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
+
 	
 	var win = Ti.UI.createWindow({
 		width: '100%',
 		height: '100%',
 		backgroundColor: 'green',
-		opacity: 0.0,
-		fullscreen: true
+		opacity: 1.0,
+		fullscreen: true,
+		backgroundImage: 'ui/images/woodTable.png'
 	});
 	
 	var postLayoutCallback = function(e){
@@ -25,21 +30,25 @@ function MainShopWindow(args){
 		var categoryDockArgs = {
 			parentWidth: win.size.width,
 			scrollableView: scrollableView,
-			categories: ['beef', 'chicken', 'pork'],
+			storedProducts: storedProducts
 		};
-		
+	
 		var categoryDock = new CategoryDock(categoryDockArgs);
 		
 		function scrollableViewScrollCallback(e){
 			categoryDock.scrollCallback(e);
+			
+			win.fireEvent('touchstart');
 		}
 		scrollableView.addEventListener('scroll', scrollableViewScrollCallback);
 		
 		function scrollableViewScrollEndCallback(e){
 			categoryDock.scrollEndCallback(e);
+			
+			win.fireEvent('touchstart');
 		}
 		scrollableView.addEventListener('scrollend', scrollableViewScrollEndCallback);
-	
+		
 		win.add(categoryDock);
 	};
 	
@@ -51,12 +60,24 @@ function MainShopWindow(args){
 	
 	win.addEventListener('open', windowOpenCallback);
 	
+	var shade = Ti.UI.createView({
+		height: Ti.UI.FILL,
+		width: Ti.UI.FILL,
+		backgroundColor: 'white',
+		opacity: 0.75
+	});
+	win.add(shade);
+	
 	/**
 	 * "Stil Shopping?" prompt stuff.  Called by app.js
 	 */
 	var promptView = new PromptView();
 	
 		promptView.addEventListener('touchstart', function(){
+			win.fireEvent('touchstart');
+		});
+		
+		promptView.addEventListener('click', function(){
 			win.fireEvent('touchstart');
 		});
 	
@@ -73,21 +94,40 @@ function MainShopWindow(args){
 	
 	var scrollableView = Ti.UI.createScrollableView({
 		height: Ti.UI.FILL,
-		width: Ti.UI.FILL,
-		backgroundColor: 'red',
+		width: Ti.UI.FILL
 	});
 	
-	var view1 = Ti.UI.createView({
-		height: Ti.UI.FILL,
-		width: Ti.UI.FILL,
-		backgroundColor: 'orange'
-	});
-	
-	scrollableView.setViews([view1]);
-		scrollableView.addEventListener('touchStart', function(){
-			Ti.API.info('scrolltouch');
+		scrollableView.addEventListener('touchstart', function(){
 			win.fireEvent('touchstart');
 		});
+		scrollableView.addEventListener('touchmove', function(){
+			win.fireEvent('touchstart');
+		});
+	
+	//Get the products from storage
+	var storedProducts = localStorage.getStoredProducts();
+	
+	/**
+	 *  unshift storedProducts with a 'home' element in index 0
+	 *  This keeps our logic clean for dynically building dockViews and categoryViews to match the products present
+	 *  in the response from woocomm API 
+	 */
+		var home = {name: 'home'};
+		storedProducts.unshift(home);
+	
+	//Build a CategoryView for each category with products
+	var categoryViews = [];
+	
+
+	for (var i=0; i < storedProducts.length; i++){
+		
+		var categoryView = new CategoryView(storedProducts[i]);
+		
+		categoryViews.push(categoryView);
+		
+	}
+	
+	scrollableView.setViews(categoryViews);
 	
 	win.add(scrollableView);
 	

@@ -1,74 +1,92 @@
-Logger started at: Wednesday, October 12, 2016 1:41:18 PM PDT
+Logger started at: Sunday, October 23, 2016 3:06:41 PM PDT
 Component: com.appcelerator.titanium.ios.core
 Version: 1.0.0.1473496749
-[41:18.31] Sent: >21*1476304878031*version<
-[41:18.31] Recv: >1476304878031*2*5.4.0<
-[41:18.32] Sent: >36*1476304878032*option*monitorXHR*true<
-[41:18.32] Recv: >1476304878032<
-[41:18.32] Sent: >45*1476304878033*option*stepFiltersEnabled*false<
-[41:18.33] Recv: >1476304878033<
-[41:18.33] Sent: >45*1476304878034*option*suspendOnFirstLine*false<
-[41:18.33] Recv: >1476304878034<
-[41:18.33] Sent: >46*1476304878035*option*suspendOnExceptions*false<
-[41:18.34] Recv: >1476304878035<
-[41:18.34] Sent: >41*1476304878036*option*suspendOnErrors*true<
-[41:18.34] Recv: >1476304878036<
-[41:18.34] Sent: >43*1476304878037*option*suspendOnKeywords*true<
-[41:18.34] Recv: >1476304878037<
-[41:18.34] Sent: >45*1476304878038*option*bypassConstructors*false<
-[41:18.35] Recv: >1476304878038<
-[41:18.35] Sent: >45*1476304878039*option*stepFiltersEnabled*false<
-[41:18.35] Recv: >1476304878039<
-[41:18.35] Sent: >30*1476304878040*detailFormatters<
-[41:18.35] Recv: >1476304878040<
-[41:18.35] Sent: >63*1476304878041*breakpoint*create*app:/local-storage.js*10*1*0**1<
-[41:18.37] Recv: >1476304878041*created<
-[41:18.37] Sent: >20*1476304878042*enable<
-[41:18.37] Recv: >1476304878042<
-[41:18.129] Recv: >threads*created*0*<
-[41:18.131] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/app.js, Resource: app_js<
-[41:18.134] Recv: >scripts*created*1|app:/app.js||1|13<
-[41:18.134] Recv: >resumed*0*started<
-[41:18.135] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/context.js, Resource: context_js<
-[41:18.136] Recv: >scripts*created*2|app:/context.js||1|15<
-[41:18.136] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/ui/mainShopWindow/MainShopWindow.js, Resource: ui/mainShopWindow/MainShopWindow_js<
-[41:18.136] Recv: >scripts*created*3|app:/ui/mainShopWindow/MainShopWindow.js||1|119<
-[41:18.137] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/lib/HttpClient.js, Resource: lib/HttpClient_js<
-[41:18.137] Recv: >scripts*created*4|app:/lib/HttpClient.js||1|153<
-[41:18.137] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/config.js, Resource: config_js<
-[41:18.138] Recv: >scripts*created*5|app:/config.js||1|65<
-[41:18.139] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/lib/WooCommClient.js, Resource: lib/WooCommClient_js<
-[41:18.139] Recv: >scripts*created*6|app:/lib/WooCommClient.js||1|74<
-[41:18.139] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/local-storage.js, Resource: local-storage_js<
-[41:18.140] Recv: >scripts*created*7|app:/local-storage.js||1|53<
-[41:18.140] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/ui/mainShopWindow/CategoryDock.js, Resource: ui/mainShopWindow/CategoryDock_js<
-[41:18.140] Recv: >scripts*created*8|app:/ui/mainShopWindow/CategoryDock.js||1|107<
-[41:18.142] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/892A12F5-6888-44B2-8E72-007E4C132998/Porter and York Kiosk.app/_app_props_.json, Resource: _app_props__json<
-[41:18.152] Recv: >log*out*[DEBUG] Application booted in 154.816985 ms<
-[41:18.198] Recv: >log*out*[WARN] New layout set while view [object TiUIView] animating: Will relayout after animation.<
-[41:22.516] Recv: >log*out*[INFO] https://porterandyork.staging.wpengine.com/wc-api/v3/products/?consumer_key=ck_bc547ebde42c1d3f72ede54cc83b51b047707f53&consumer_secret=cs_05312de38f84f03f1c3ab85400cc0988737894c6&filter[meta]=true&filter[limit]=100<
-[41:26.910] Recv: >suspended*0*breakpoint*app:/local-storage.js*10<
-[41:26.911] Sent: >22*1476304878043*frames*0<
-[41:26.911] Recv: >1476304878043*0|storeProducts|products|app:/local-storage.js|10|false|0|0*1|filterAndStoreProducts|products|app:/lib/WooCommClient.js|69|false|0|0*2||success, res|app:/lib/WooCommClient.js|39|false|0|0*3|onload|e|app:/lib/HttpClient.js|60|false|0|0<
-[41:27.229] Sent: >34*1476304878044*variables*0*frame[0]<
-[41:27.231] Recv: >1476304878044*arguments|object|opnl|[object Arguments]*beef|undefined|wl|undefined*chicken|undefined|wl|undefined*exports|object|ov|[object Object]*i|undefined|wl|undefined*lamb|undefined|wl|undefined*module|object|ov|[object Object]*pork|undefined|wl|undefined*products|object|wnol|[object Array]*seafood|undefined|wl|undefined*storedProducts|object|ov|[object Object]<
-[41:27.543] Sent: >43*1476304878045*variables*0*frame[0].products<
-[41:27.545] Recv: >1476304878045*0|object|ol|[object Object]*1|object|ol|[object Object]*2|object|ol|[object Object]*3|object|ol|[object Object]<
-[41:36.841] Sent: >45*1476304878046*variables*0*frame[0].products.0<
-[41:36.842] Recv: >1476304878046*attributes|object|wnol|[object Array]*average_rating|string|wl|"0.00"*backordered|boolean|wl|false*backorders_allowed|boolean|wl|false*button_text|string|wl|""*catalog_visibility|string|wl|"visible"*categories|object|wnol|[object Array]*created_at|string|wl|"2016-09-06T21:33:56Z"*cross_sell_ids|object|wnol|[object Array]*description|string|wl|"<p>$20 Gift Card</p>
-"*dimensions|object|ol|[object Object]*download_expiry|number|wl|0*download_limit|number|wl|0*download_type|string|wl|""*downloadable|boolean|wl|false*downloads|object|wnol|[object Array]*featured|boolean|wl|false*featured_src|string|wl|"https://porterandyork.staging.wpengine.com/wp-content/uploads/gift-cards21.jpg"*grouped_products|object|wnol|[object Array]*id|number|wl|13424*images|object|wnol|[object Array]*in_stock|boolean|wl|true*managing_stock|boolean|wl|false*menu_order|number|wl|1*on_sale|boolean|wl|false*parent|object|wnol|[object Array]*parent_id|number|wl|0*permalink|string|wl|"https://porterandyork.staging.wpengine.com/pro...1116<
-[41:42.573] Sent: >56*1476304878047*variables*0*frame[0].products.0.categories<
-[41:42.575] Recv: >1476304878047<
-[41:45.884] Sent: >54*1476304878048*details*0*frame[0].products.0.created_at<
-[41:45.886] Recv: >1476304878048<
-[41:46.534] Sent: >54*1476304878049*details*0*frame[0].products.0.categories<
-[41:46.536] Recv: >1476304878049<
-[41:56.308] Sent: >45*1476304878050*variables*0*frame[0].products.1<
-[42:15.666] Sent: >54*1476304878051*details*0*frame[0].products.0.categories<
-[42:15.668] Recv: >1476304878050*attributes|object|wnol|[object Array]*average_rating|string|wl|"0.00"*backordered|boolean|wl|false*backorders_allowed|boolean|wl|false*button_text|string|wl|""*catalog_visibility|string|wl|"visible"*categories|object|wnol|[object Array]*created_at|string|wl|"2013-10-04T21:42:48Z"*cross_sell_ids|object|wnol|[object Array]*description|string|wl|"<h3>Buy filet mignon from Porter &amp; York and you get Natural Angus or Prime Filet, perfectly aged at 28 days, Shipped fresh, never frozen. Taste the difference.</h3>
-<p><a href="/wp-content/uploads/2013/10/diagram-filet.png"><img class="alignright img-responsive" src="/wp-content/uploads/2013/10/diagram-filet.png" alt="buy filet mignon diagram" /></a>When you buy<strong> filet mignon</strong> from Porter &amp; York , you’re getting fresh, not frozen beef that is rich and will melt in your mouth. Known for its superior tender texture, this cut is commonly known as a Tenderloin Steak. The Filet, or <a title="Buy Beef Tenderloin Roast – Shipped Fresh Never...3262<
-[42:19.629] Sent: >56*1476304878052*breakpoint*remove*app:/local-storage.js*10<
-[42:21.775] Sent: >63*1476304878053*breakpoint*create*app:/local-storage.js*10*1*0**1<
-[42:24.670] Sent: >10**terminate<
-[42:24.670] Sent: >10**terminate<
+[6:41.720] Sent: >21*1477260401721*version<
+[6:41.721] Recv: >1477260401721*2*5.5.1<
+[6:41.723] Sent: >36*1477260401722*option*monitorXHR*true<
+[6:41.723] Recv: >1477260401722<
+[6:41.723] Sent: >45*1477260401723*option*stepFiltersEnabled*false<
+[6:41.723] Recv: >1477260401723<
+[6:41.723] Sent: >45*1477260401724*option*suspendOnFirstLine*false<
+[6:41.724] Recv: >1477260401724<
+[6:41.724] Sent: >46*1477260401725*option*suspendOnExceptions*false<
+[6:41.724] Recv: >1477260401725<
+[6:41.724] Sent: >41*1477260401726*option*suspendOnErrors*true<
+[6:41.724] Recv: >1477260401726<
+[6:41.724] Sent: >43*1477260401727*option*suspendOnKeywords*true<
+[6:41.724] Recv: >1477260401727<
+[6:41.724] Sent: >45*1477260401728*option*bypassConstructors*false<
+[6:41.725] Recv: >1477260401728<
+[6:41.725] Sent: >45*1477260401729*option*stepFiltersEnabled*false<
+[6:41.725] Recv: >1477260401729<
+[6:41.725] Sent: >30*1477260401730*detailFormatters<
+[6:41.725] Recv: >1477260401730<
+[6:41.729] Sent: >53*1477260401731*breakpoint*create*app:/app.js*13*1*0**1<
+[6:41.731] Recv: >1477260401731*created<
+[6:41.731] Sent: >20*1477260401732*enable<
+[6:41.731] Recv: >1477260401732<
+[6:41.752] Recv: >threads*created*0*<
+[6:41.753] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/app.js, Resource: app_js<
+[6:41.756] Recv: >scripts*created*1|app:/app.js||1|112<
+[6:41.757] Recv: >resumed*0*started<
+[6:41.758] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/context.js, Resource: context_js<
+[6:41.758] Recv: >scripts*created*2|app:/context.js||1|19<
+[6:41.759] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ui/mainShopWindow/MainShopWindow.js, Resource: ui/mainShopWindow/MainShopWindow_js<
+[6:41.759] Recv: >scripts*created*3|app:/ui/mainShopWindow/MainShopWindow.js||1|136<
+[6:41.760] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ui/LoadingWindow.js, Resource: ui/LoadingWindow_js<
+[6:41.760] Recv: >scripts*created*4|app:/ui/LoadingWindow.js||1|101<
+[6:41.760] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ui/mainDisplayWindow/MainDisplayWindow.js, Resource: ui/mainDisplayWindow/MainDisplayWindow_js<
+[6:41.760] Recv: >scripts*created*5|app:/ui/mainDisplayWindow/MainDisplayWindow.js||1|26<
+[6:41.760] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/lib/WooCommClient.js, Resource: lib/WooCommClient_js<
+[6:41.761] Recv: >scripts*created*6|app:/lib/WooCommClient.js||1|74<
+[6:41.761] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/lib/HttpClient.js, Resource: lib/HttpClient_js<
+[6:41.761] Recv: >scripts*created*7|app:/lib/HttpClient.js||1|153<
+[6:41.761] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/config.js, Resource: config_js<
+[6:41.762] Recv: >scripts*created*8|app:/config.js||1|69<
+[6:41.763] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/local-storage.js, Resource: local-storage_js<
+[6:41.763] Recv: >scripts*created*9|app:/local-storage.js||1|62<
+[6:41.763] Recv: >suspended*0*breakpoint*app:/app.js*13<
+[6:41.764] Sent: >22*1477260401733*frames*0<
+[6:41.764] Recv: >1477260401733*0|||app:/app.js|13|false|0|0*1|||app:/app.js|110|false|0|0<
+[6:43.951] Sent: >34*1477260401734*variables*0*frame[0]<
+[6:43.952] Recv: >1477260401734*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|undefined|wl|undefined*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[6:54.340] Sent: >11**stepInto*0<
+[6:54.341] Recv: >resumed*0*stepInto<
+[6:54.348] Recv: >log*out*[INFO] Magtek iDynamo Reader Module loaded<
+[6:54.348] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ti.magtek.js, Resource: ti_magtek_js<
+[6:54.349] Recv: >suspended*0*requested*app:/app.js*15<
+[6:54.349] Sent: >22*1477260401735*frames*0<
+[6:54.349] Recv: >1477260401735*0|||app:/app.js|15|false|0|0*1|||app:/app.js|110|false|0|0<
+[6:54.701] Sent: >34*1477260401736*variables*0*frame[0]<
+[6:54.702] Recv: >1477260401736*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[6:56.834] Sent: >11**stepInto*0<
+[6:56.835] Recv: >resumed*0*stepInto<
+[6:56.835] Recv: >suspended*0*requested*app:/app.js*19<
+[6:56.835] Sent: >22*1477260401737*frames*0<
+[6:56.836] Recv: >1477260401737*0|||app:/app.js|19|false|0|0*1|||app:/app.js|110|false|0|0<
+[6:57.219] Sent: >34*1477260401738*variables*0*frame[0]<
+[6:57.219] Recv: >1477260401738*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[7:48.836] Sent: >11**stepInto*0<
+[7:48.836] Recv: >resumed*0*stepInto<
+[7:48.836] Recv: >suspended*0*requested*app:/app.js*23<
+[7:48.837] Sent: >22*1477260401739*frames*0<
+[7:48.837] Recv: >1477260401739*0|||app:/app.js|23|false|0|0*1|||app:/app.js|110|false|0|0<
+[7:49.138] Sent: >34*1477260401740*variables*0*frame[0]<
+[7:49.140] Recv: >1477260401740*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[7:52.343] Sent: >11**stepInto*0<
+[7:52.344] Recv: >resumed*0*stepInto<
+[7:52.344] Recv: >suspended*0*requested*app:/app.js*27<
+[7:52.345] Sent: >22*1477260401741*frames*0<
+[7:52.345] Recv: >1477260401741*0|||app:/app.js|27|false|0|0*1|||app:/app.js|110|false|0|0<
+[7:52.624] Sent: >34*1477260401742*variables*0*frame[0]<
+[7:52.625] Recv: >1477260401742*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[7:54.273] Sent: >11**stepInto*0<
+[7:54.273] Recv: >resumed*0*stepInto<
+[7:54.274] Recv: >suspended*0*requested*app:/app.js*31<
+[7:54.274] Sent: >22*1477260401743*frames*0<
+[7:54.274] Recv: >1477260401743*0|||app:/app.js|31|false|0|0*1|||app:/app.js|110|false|0|0<
+[7:54.661] Sent: >34*1477260401744*variables*0*frame[0]<
+[7:54.662] Recv: >1477260401744*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[8:28.776] Sent: >10**terminate<
+[8:28.777] Sent: >10**terminate<
 ----------End of file----------

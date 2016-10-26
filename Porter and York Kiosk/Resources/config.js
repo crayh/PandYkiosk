@@ -15,6 +15,9 @@ var mode_development = 'development';
 //app colors
 exports.darkBrown = "#2C2318";
 
+//the screen height of the device
+exports.screenHeight = Ti.Platform.displayCaps.platformHeight;
+
 /**
  * Set the application mode - this can be used to add code that does not run in simulation
  * Also it is used to set specific runtime config variables below
@@ -40,7 +43,8 @@ if(mode === mode_development)
 	}
 else
 	{
-		exports.woo_commerce_base_url = 'https://www.porterandyork.com';
+		//exports.woo_commerce_base_url = 'https://www.porterandyork.com';
+		exports.woo_commerce_base_url = 'https://porterandyork.staging.wpengine.com';
 	}
 	
 exports.namespace_header = 'WebApplicationMode';

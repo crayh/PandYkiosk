@@ -29,6 +29,7 @@ function LoadingWindow(){
 	}
 	win.addEventListener('postlayout', winPostLayoutCallback);
 	
+
 	var shade = Ti.UI.createView({
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL,
@@ -38,13 +39,13 @@ function LoadingWindow(){
 	win.add(shade);
 	
 	var mainLogo = Ti.UI.createImageView({
-		height: '53%',
+		height: '45%',
 		image: 'ui/images/stackedLogo.png'
 	});
 	win.add(mainLogo);
 	
 	var logoSpinner = Ti.UI.createImageView({
-		height: '11%',
+		height: '9%',
 		image: 'ui/images/logoSpinner.png'
 	});
 	win.add(logoSpinner);

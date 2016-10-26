@@ -9,7 +9,8 @@ function MainDisplayWindow(){
 		width: Ti.UI.FILL,
 		height: Ti.UI.FILL,
 		backgroundColor: 'pink',
-		opacity: 0.0
+		opacity: 0.0,
+		fullscreen: true
 	});
 	
 		function winOpenCallback(e){
