@@ -17,6 +17,7 @@ exports.darkBrown = "#2C2318";
 
 //the screen height of the device
 exports.screenHeight = Ti.Platform.displayCaps.platformHeight;
+exports.screenWidth = Ti.Platform.displayCaps.platformWidth;
 
 /**
  * Set the application mode - this can be used to add code that does not run in simulation

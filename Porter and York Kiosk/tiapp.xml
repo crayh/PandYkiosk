@@ -27,6 +27,7 @@
                 <array>
                     <string>UIInterfaceOrientationLandscapeLeft</string>
                     <string>UIInterfaceOrientationLandscapeRight</string>
+          
                 </array>
                 <key>UIRequiresPersistentWiFi</key>
                 <false/>

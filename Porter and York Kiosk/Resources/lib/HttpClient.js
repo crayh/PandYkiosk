@@ -57,7 +57,7 @@ exports.doGet = function(url, callback)
 	var xhr = Ti.Network.createHTTPClient({
         onload: function(e)
             {
-            callback(true, JSON.parse(this.responseText));
+                callback(true, JSON.parse(this.responseText));
             },
         onerror: function(e)
             {
@@ -90,14 +90,13 @@ exports.doGet = function(url, callback)
 	xhr.send();
 	};
 
-exports.doMediaGet = function(endpoint, callback)
+exports.doMediaGet = function(url, callback)
 	{
-	var url = config.services_base_url + endpoint;
 	
 	var xhr = Ti.Network.createHTTPClient({
         onload: function(e)
             {
-            callback(true, this.responseText);
+            callback(true, this.responseData);
             },
         onerror: function(e)
             {

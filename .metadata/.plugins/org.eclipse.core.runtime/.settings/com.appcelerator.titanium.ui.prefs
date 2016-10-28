@@ -1,7 +1,8 @@
 =run
-LAST_LAUNCH_TIMESTAMP=1477430461158
+LAST_LAUNCH_TIMESTAMP=1477521105408
 Porter\ and\ York\ Kiosk\:launchMode=run
-Porter\ and\ York\ Kiosk\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.F3B1CB39-8CF5-417C-846B-A441C68FD14F
+Porter\ and\ York\ Kiosk\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.F54DCED5-B184-404F-B442-57429E7A400F
+autoLaunchShortcut=true
 eclipse.preferences.version=1
 preference.show.console.onError=false
 preference.studio.perspective.version=103
