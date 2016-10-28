@@ -35,15 +35,11 @@ Titanium.UI.setBackgroundImage('ui/images/wooTable.png');
 {
 	
 		var context = require('context');
-		var LoadingWindow = require('ui/LoadingWindow');
 		var MainDisplayWindow = require('ui/mainDisplayWindow/MainDisplayWindow');
 		var MainShopWindow = require('ui/mainShopWindow/MainShopWindow');
 		var wooClient = require('lib/WooCommClient');
 
-		
-		var loadingWindow = new LoadingWindow();
 		var mainDisplayWindow = new MainDisplayWindow();
-		
 			
 			function mainDisplayWindowClick(e){
 				mainDisplayWindow.removeEventListener('click', mainDisplayWindowClick);
@@ -96,16 +92,13 @@ Titanium.UI.setBackgroundImage('ui/images/wooTable.png');
 		
 			
 		function loadShop(){
-			loadingWindow.open();
+					
+			InstantiateShopWindow();
+			mainShopWindow.open();
 			
 			wooClient.getProducts('all', function(success, products){
 				if(success){
-					var dramaticDelay = setTimeout(function(){
-						InstantiateShopWindow();
-						mainShopWindow.open();
-						loadingWindow.close();
-					}, 3500);
-					
+					mainShopWindow.doneLoading();
 				}else{
 					alert(error);
 				}

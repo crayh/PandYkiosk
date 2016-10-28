@@ -2,3 +2,4 @@
 1477430499333	Rename resource 'app.js'
 1477430509814	Rename resource 'app1.js'
 1477682766835	Rename resource 'LoadingWindow.js'
+1477688283781	Move 'LoadingView.js' to 'mainShopWindow'

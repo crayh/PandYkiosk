@@ -13,7 +13,7 @@ function MainShopWindow(args){
 	var CategoryDock = require('ui/mainShopWindow/CategoryDock');
 	var CategoryView = require('ui/mainShopWindow/CategoryView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
-	var LoadingView = require('ui/LoadingView');
+	var LoadingView = require('ui/mainShopWindow/LoadingView');
 
 	
 	var win = Ti.UI.createWindow({
@@ -27,46 +27,12 @@ function MainShopWindow(args){
 	var postLayoutCallback = function(e){
 		win.removeEventListener('postlayout', postLayoutCallback);
 		
-		var categoryDockArgs = {
-			parentWidth: win.size.width,
-			scrollableView: scrollableView,
-			storedProducts: storedProducts
-		};
-	
-		var categoryDock = new CategoryDock(categoryDockArgs);
 		
-		function scrollableViewScrollCallback(e){
-			categoryDock.scrollCallback(e);
-			
-			win.fireEvent('touchstart');
-		}
-		scrollableView.addEventListener('scroll', scrollableViewScrollCallback);
-		
-		function scrollableViewScrollEndCallback(e){
-			categoryDock.scrollEndCallback(e);
-			
-			win.fireEvent('touchstart');
-		}
-		scrollableView.addEventListener('scrollend', scrollableViewScrollEndCallback);
-		
-		win.add(categoryDock);
 	};
 	win.addEventListener('postlayout', postLayoutCallback);
 	
 	var windowOpenCallback = function(e){
 		win.animate({opacity: 1.0, duration: 400});
-		
-		wooClient.getProducts('all', function(success, products){
-				if(success){
-					
-					var dramaticDelay = setTimeout(function(){
-						loadingView.hide();
-					}, 3500);
-					
-				}else{
-					alert(error);
-				}
-		});
 	};
 	win.addEventListener('open', windowOpenCallback);
 	
@@ -106,10 +72,12 @@ function MainShopWindow(args){
 		promptView.hide();
 	};
 	
-	var scrollableView = Ti.UI.createScrollableView({
-		height: Ti.UI.FILL,
-		width: Ti.UI.FILL
-	});
+	
+	win.doneLoading = function(){
+		var scrollableView = Ti.UI.createScrollableView({
+			height: Ti.UI.FILL,
+			width: Ti.UI.FILL
+		});
 	
 		scrollableView.addEventListener('touchstart', function(){
 			win.fireEvent('touchstart');
@@ -118,32 +86,62 @@ function MainShopWindow(args){
 			win.fireEvent('touchstart');
 		});
 	
-	//Get the products from storage
-	var storedProducts = localStorage.getStoredProducts();
-	
-	/**
-	 *  unshift storedProducts with a 'home' element in index 0
-	 *  This keeps our logic clean for dynically building dockViews and categoryViews to match the products present
-	 *  in the response from woocomm API 
-	 */
-		var home = {name: 'home'};
-		storedProducts.unshift(home);
-	
-	//Build a CategoryView for each category with products
-	var categoryViews = [];
-	
-
-	for (var i=0; i < storedProducts.length; i++){
+		//Get the products from storage
+		var storedProducts = localStorage.getStoredProducts();
 		
-		var categoryView = new CategoryView(storedProducts[i]);
+		/**
+		 *  unshift storedProducts with a 'home' element in index 0
+		 *  This keeps our logic clean for dynically building dockViews and categoryViews to match the products present
+		 *  in the response from woocomm API 
+		 */
+			var home = {name: 'home'};
+			storedProducts.unshift(home);
 		
-		categoryViews.push(categoryView);
+		//Build a CategoryView for each category with products
+		var categoryViews = [];
 		
-	}
 	
-	scrollableView.setViews(categoryViews);
+		for (var i=0; i < storedProducts.length; i++){
+			
+			var categoryView = new CategoryView(storedProducts[i]);
+			
+			categoryViews.push(categoryView);
+			
+		}
+		
+		scrollableView.setViews(categoryViews);
+		
+		win.add(scrollableView);
+		
+		var categoryDockArgs = {
+			parentWidth: win.size.width,
+			scrollableView: scrollableView,
+			storedProducts: storedProducts
+		};
 	
-	win.add(scrollableView);
+		var categoryDock = new CategoryDock(categoryDockArgs);
+		
+		function scrollableViewScrollCallback(e){
+			categoryDock.scrollCallback(e);
+			
+			win.fireEvent('touchstart');
+		}
+		scrollableView.addEventListener('scroll', scrollableViewScrollCallback);
+		
+		function scrollableViewScrollEndCallback(e){
+			categoryDock.scrollEndCallback(e);
+			
+			win.fireEvent('touchstart');
+		}
+		scrollableView.addEventListener('scrollend', scrollableViewScrollEndCallback);
+		
+		win.add(categoryDock);
+		
+		//delay to allow time for remote images to load
+		var dramaticDelay = setTimeout(function(){
+			loadingView.hide();	
+		}, 3500);
+	};
 	
 	return win;
 }
