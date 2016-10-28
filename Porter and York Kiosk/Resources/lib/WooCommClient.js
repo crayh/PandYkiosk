@@ -59,7 +59,8 @@ function buildUrl(endpoint){
 function filterAndStoreProducts(products){
 	
 	products = products.filter(function(product){
-		if (product.status === 'publish' && product.product_meta.grocery_kiosk_product){
+		if (product.status === 'publish' && product.product_meta.grocery_kiosk_product == 'yes'){
+			Ti.API.info(product.title + "    " + product.product_meta.grocery_kiosk_product);
 			return true;
 		}else{
 			return false;

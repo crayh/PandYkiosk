@@ -13,12 +13,12 @@ function MainShopWindow(args){
 	var CategoryDock = require('ui/mainShopWindow/CategoryDock');
 	var CategoryView = require('ui/mainShopWindow/CategoryView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
+	var LoadingView = require('ui/LoadingView');
 
 	
 	var win = Ti.UI.createWindow({
 		width: '100%',
 		height: '100%',
-		backgroundColor: 'green',
 		opacity: 1.0,
 		fullscreen: true,
 		backgroundImage: 'ui/images/woodTable.png'
@@ -51,20 +51,34 @@ function MainShopWindow(args){
 		
 		win.add(categoryDock);
 	};
-	
 	win.addEventListener('postlayout', postLayoutCallback);
 	
 	var windowOpenCallback = function(e){
 		win.animate({opacity: 1.0, duration: 400});
+		
+		wooClient.getProducts('all', function(success, products){
+				if(success){
+					
+					var dramaticDelay = setTimeout(function(){
+						loadingView.hide();
+					}, 3500);
+					
+				}else{
+					alert(error);
+				}
+		});
 	};
-	
 	win.addEventListener('open', windowOpenCallback);
+	
+	var loadingView = new LoadingView();
+	
+	win.add(loadingView);
 	
 	var shade = Ti.UI.createView({
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL,
 		backgroundColor: 'white',
-		opacity: 0.75
+		opacity: 0.85
 	});
 	win.add(shade);
 	
