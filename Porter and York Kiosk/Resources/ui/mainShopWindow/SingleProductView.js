@@ -16,6 +16,7 @@ function SingleProductView(args){
 		effect: Ti.UI.iOS.BLUR_EFFECT_STYLE_LIGHT
 	});
 	
+	
 	mainScrollView.add(blur);
 	
 	var mainView = Ti.UI.createView({
