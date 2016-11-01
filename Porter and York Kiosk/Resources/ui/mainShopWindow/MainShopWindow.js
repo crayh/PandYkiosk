@@ -14,6 +14,7 @@ function MainShopWindow(args){
 	var CategoryView = require('ui/mainShopWindow/CategoryView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
 	var LoadingView = require('ui/mainShopWindow/LoadingView');
+	//var SingleProductView = require('ui/mainShopWindow/SingleProductView');
 
 	
 	var win = Ti.UI.createWindow({
@@ -26,8 +27,6 @@ function MainShopWindow(args){
 	
 	var postLayoutCallback = function(e){
 		win.removeEventListener('postlayout', postLayoutCallback);
-		
-		
 	};
 	win.addEventListener('postlayout', postLayoutCallback);
 	
@@ -35,6 +34,14 @@ function MainShopWindow(args){
 		win.animate({opacity: 1.0, duration: 400});
 	};
 	win.addEventListener('open', windowOpenCallback);
+	
+		win.showProduct = function(view){
+			win.add(view);
+		};
+		
+		win.hideProduct = function(view){
+			win.remove(view);
+		};
 	
 	var loadingView = new LoadingView();
 	
@@ -103,7 +110,7 @@ function MainShopWindow(args){
 	
 		for (var i=0; i < storedProducts.length; i++){
 			
-			var categoryView = new CategoryView(storedProducts[i]);
+			var categoryView = new CategoryView(storedProducts[i], win);
 			
 			categoryViews.push(categoryView);
 			

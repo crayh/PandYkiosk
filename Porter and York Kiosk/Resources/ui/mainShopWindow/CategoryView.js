@@ -4,11 +4,13 @@
  * @author Cole Halverson
  */
 
-function CategoryView(productArray){
+function CategoryView(productArray, parentWindow){
 	
 	var config = require('config');
 	var httpClient = require('lib/HttpClient');
 	var imageUtil = require('lib/ImageUtil');
+	
+	var SingleProductView = require('ui/mainShopWindow/SingleProductView');
 	
 	Ti.API.info('ARRAY ' + JSON.stringify(productArray));
 	
@@ -50,6 +52,16 @@ function CategoryView(productArray){
 			height: Ti.UI.SIZE,
 			backgroundColor: 'white',
 			layout: 'vertical'
+		});
+		
+		view.addEventListener('click', function(e){
+			e.source.setTouchEnabled(false);
+			
+			var singleProductView = new SingleProductView();
+			
+			parentWindow.showProduct(singleProductView);
+			
+			e.source.setTouchEnabled(true);
 		});
 		
 		
