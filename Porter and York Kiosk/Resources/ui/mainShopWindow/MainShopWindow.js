@@ -89,10 +89,10 @@ function MainShopWindow(args){
 				/**
 				 * Force all scrollableView.views to layout, which loads product images
 				 */
-				scrollableView.scrollToView(3);
+				//scrollableView.scrollToView(3);
 			
 				var delay = setTimeout(function(){
-					scrollableView.scrollToView(0);	
+					//scrollableView.scrollToView(0);	
 				}, 100);
 			};
 		
@@ -152,7 +152,26 @@ function MainShopWindow(args){
 		scrollableView.addEventListener('scroll', scrollableViewScrollCallback);
 		
 		function scrollableViewScrollEndCallback(e){
-			categoryDock.scrollEndCallback(e);
+			
+			if(!e.source.nested)   //The categoryView scrollView scrollEnd event calls this function, this checks for that
+			{
+				categoryDock.scrollEndCallback(e);
+				
+				if(e.view.categoryDescription){
+					e.view.showDetails();
+				}
+				
+				var eViews = e.source.getViews();
+				
+				for(var v = 1; v < eViews.length; v++)   //start at v = 1 to skip the 'home' view
+				{
+					if(v != e.currentPage)
+					{
+						eViews[v].reset();
+						Ti.API.info('reset');
+					}
+				}
+			}
 			
 			win.fireEvent('touchstart');
 		}

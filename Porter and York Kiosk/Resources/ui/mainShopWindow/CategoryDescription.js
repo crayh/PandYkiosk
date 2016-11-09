@@ -26,12 +26,31 @@ function CategoryDescription(productArray){
 		}
 		categoryDescriptionView.addEventListener('postlayout', categoryDescriptionViewPostlayout);
 	
+	var backgroundImage = Ti.UI.createImageView({
+		top: 0,
+		width: Ti.UI.FILL,
+		image: 'ui/images/beefBackground.png'
+	});
+	categoryDescriptionView.add(backgroundImage);
+	
 	var imageView = Ti.UI.createImageView({
 		top: 0,
 		width: Ti.UI.FILL,
-		image: 'ui/images/blurCategoryDescription.png'
+		image: 'ui/images/blurCategoryDescription.png',
+		opacity: 0.0
 	});
 	categoryDescriptionView.add(imageView);
+	
+	categoryDescriptionView.showDetails = function(){
+		var delay = setTimeout(function(){
+			imageView.animate({opacity: 1.0, duration: 1000});
+		}, 500);
+	};
+	
+	categoryDescriptionView.reset = function(){
+		imageView.setOpacity(0.0);
+	};
+	
 	
 	return categoryDescriptionView;
 }
