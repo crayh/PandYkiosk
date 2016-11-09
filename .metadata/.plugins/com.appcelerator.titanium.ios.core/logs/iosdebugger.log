@@ -1,92 +1,643 @@
-Logger started at: Sunday, October 23, 2016 3:06:41 PM PDT
+Logger started at: Thursday, November 3, 2016 1:20:55 PM PDT
 Component: com.appcelerator.titanium.ios.core
 Version: 1.0.0.1473496749
-[6:41.720] Sent: >21*1477260401721*version<
-[6:41.721] Recv: >1477260401721*2*5.5.1<
-[6:41.723] Sent: >36*1477260401722*option*monitorXHR*true<
-[6:41.723] Recv: >1477260401722<
-[6:41.723] Sent: >45*1477260401723*option*stepFiltersEnabled*false<
-[6:41.723] Recv: >1477260401723<
-[6:41.723] Sent: >45*1477260401724*option*suspendOnFirstLine*false<
-[6:41.724] Recv: >1477260401724<
-[6:41.724] Sent: >46*1477260401725*option*suspendOnExceptions*false<
-[6:41.724] Recv: >1477260401725<
-[6:41.724] Sent: >41*1477260401726*option*suspendOnErrors*true<
-[6:41.724] Recv: >1477260401726<
-[6:41.724] Sent: >43*1477260401727*option*suspendOnKeywords*true<
-[6:41.724] Recv: >1477260401727<
-[6:41.724] Sent: >45*1477260401728*option*bypassConstructors*false<
-[6:41.725] Recv: >1477260401728<
-[6:41.725] Sent: >45*1477260401729*option*stepFiltersEnabled*false<
-[6:41.725] Recv: >1477260401729<
-[6:41.725] Sent: >30*1477260401730*detailFormatters<
-[6:41.725] Recv: >1477260401730<
-[6:41.729] Sent: >53*1477260401731*breakpoint*create*app:/app.js*13*1*0**1<
-[6:41.731] Recv: >1477260401731*created<
-[6:41.731] Sent: >20*1477260401732*enable<
-[6:41.731] Recv: >1477260401732<
-[6:41.752] Recv: >threads*created*0*<
-[6:41.753] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/app.js, Resource: app_js<
-[6:41.756] Recv: >scripts*created*1|app:/app.js||1|112<
-[6:41.757] Recv: >resumed*0*started<
-[6:41.758] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/context.js, Resource: context_js<
-[6:41.758] Recv: >scripts*created*2|app:/context.js||1|19<
-[6:41.759] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ui/mainShopWindow/MainShopWindow.js, Resource: ui/mainShopWindow/MainShopWindow_js<
-[6:41.759] Recv: >scripts*created*3|app:/ui/mainShopWindow/MainShopWindow.js||1|136<
-[6:41.760] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ui/LoadingWindow.js, Resource: ui/LoadingWindow_js<
-[6:41.760] Recv: >scripts*created*4|app:/ui/LoadingWindow.js||1|101<
-[6:41.760] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ui/mainDisplayWindow/MainDisplayWindow.js, Resource: ui/mainDisplayWindow/MainDisplayWindow_js<
-[6:41.760] Recv: >scripts*created*5|app:/ui/mainDisplayWindow/MainDisplayWindow.js||1|26<
-[6:41.760] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/lib/WooCommClient.js, Resource: lib/WooCommClient_js<
-[6:41.761] Recv: >scripts*created*6|app:/lib/WooCommClient.js||1|74<
-[6:41.761] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/lib/HttpClient.js, Resource: lib/HttpClient_js<
-[6:41.761] Recv: >scripts*created*7|app:/lib/HttpClient.js||1|153<
-[6:41.761] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/config.js, Resource: config_js<
-[6:41.762] Recv: >scripts*created*8|app:/config.js||1|69<
-[6:41.763] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/local-storage.js, Resource: local-storage_js<
-[6:41.763] Recv: >scripts*created*9|app:/local-storage.js||1|62<
-[6:41.763] Recv: >suspended*0*breakpoint*app:/app.js*13<
-[6:41.764] Sent: >22*1477260401733*frames*0<
-[6:41.764] Recv: >1477260401733*0|||app:/app.js|13|false|0|0*1|||app:/app.js|110|false|0|0<
-[6:43.951] Sent: >34*1477260401734*variables*0*frame[0]<
-[6:43.952] Recv: >1477260401734*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|undefined|wl|undefined*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
-[6:54.340] Sent: >11**stepInto*0<
-[6:54.341] Recv: >resumed*0*stepInto<
-[6:54.348] Recv: >log*out*[INFO] Magtek iDynamo Reader Module loaded<
-[6:54.348] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/F3B1CB39-8CF5-417C-846B-A441C68FD14F/data/Containers/Bundle/Application/5F0C32CF-408F-42D6-B9E5-6A4461B69704/Porter and York Kiosk.app/ti.magtek.js, Resource: ti_magtek_js<
-[6:54.349] Recv: >suspended*0*requested*app:/app.js*15<
-[6:54.349] Sent: >22*1477260401735*frames*0<
-[6:54.349] Recv: >1477260401735*0|||app:/app.js|15|false|0|0*1|||app:/app.js|110|false|0|0<
-[6:54.701] Sent: >34*1477260401736*variables*0*frame[0]<
-[6:54.702] Recv: >1477260401736*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
-[6:56.834] Sent: >11**stepInto*0<
-[6:56.835] Recv: >resumed*0*stepInto<
-[6:56.835] Recv: >suspended*0*requested*app:/app.js*19<
-[6:56.835] Sent: >22*1477260401737*frames*0<
-[6:56.836] Recv: >1477260401737*0|||app:/app.js|19|false|0|0*1|||app:/app.js|110|false|0|0<
-[6:57.219] Sent: >34*1477260401738*variables*0*frame[0]<
-[6:57.219] Recv: >1477260401738*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
-[7:48.836] Sent: >11**stepInto*0<
-[7:48.836] Recv: >resumed*0*stepInto<
-[7:48.836] Recv: >suspended*0*requested*app:/app.js*23<
-[7:48.837] Sent: >22*1477260401739*frames*0<
-[7:48.837] Recv: >1477260401739*0|||app:/app.js|23|false|0|0*1|||app:/app.js|110|false|0|0<
-[7:49.138] Sent: >34*1477260401740*variables*0*frame[0]<
-[7:49.140] Recv: >1477260401740*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
-[7:52.343] Sent: >11**stepInto*0<
-[7:52.344] Recv: >resumed*0*stepInto<
-[7:52.344] Recv: >suspended*0*requested*app:/app.js*27<
-[7:52.345] Sent: >22*1477260401741*frames*0<
-[7:52.345] Recv: >1477260401741*0|||app:/app.js|27|false|0|0*1|||app:/app.js|110|false|0|0<
-[7:52.624] Sent: >34*1477260401742*variables*0*frame[0]<
-[7:52.625] Recv: >1477260401742*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
-[7:54.273] Sent: >11**stepInto*0<
-[7:54.273] Recv: >resumed*0*stepInto<
-[7:54.274] Recv: >suspended*0*requested*app:/app.js*31<
-[7:54.274] Sent: >22*1477260401743*frames*0<
-[7:54.274] Recv: >1477260401743*0|||app:/app.js|31|false|0|0*1|||app:/app.js|110|false|0|0<
-[7:54.661] Sent: >34*1477260401744*variables*0*frame[0]<
-[7:54.662] Recv: >1477260401744*InstantiateShopWindow|object|l|[object Function]*LoadingWindow|object|l|[object Function]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*context|object|ol|[object Object]*loadShop|object|l|[object Function]*loadingWindow|undefined|wl|undefined*magtek|object|nol|[object ti.magtek]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*wooClient|object|ol|[object Object]<
-[8:28.776] Sent: >10**terminate<
-[8:28.777] Sent: >10**terminate<
+[20:55.913] Sent: >21*1478204455914*version<
+[20:55.914] Recv: >1478204455914*2*5.5.1<
+[20:55.915] Sent: >36*1478204455915*option*monitorXHR*true<
+[20:55.915] Recv: >1478204455915<
+[20:55.915] Sent: >45*1478204455916*option*stepFiltersEnabled*false<
+[20:55.915] Recv: >1478204455916<
+[20:55.916] Sent: >45*1478204455917*option*suspendOnFirstLine*false<
+[20:55.916] Recv: >1478204455917<
+[20:55.916] Sent: >46*1478204455918*option*suspendOnExceptions*false<
+[20:55.916] Recv: >1478204455918<
+[20:55.916] Sent: >41*1478204455919*option*suspendOnErrors*true<
+[20:55.916] Recv: >1478204455919<
+[20:55.916] Sent: >43*1478204455920*option*suspendOnKeywords*true<
+[20:55.916] Recv: >1478204455920<
+[20:55.916] Sent: >45*1478204455921*option*bypassConstructors*false<
+[20:55.917] Recv: >1478204455921<
+[20:55.917] Sent: >45*1478204455922*option*stepFiltersEnabled*false<
+[20:55.917] Recv: >1478204455922<
+[20:55.917] Sent: >30*1478204455923*detailFormatters<
+[20:55.917] Recv: >1478204455923<
+[20:55.917] Sent: >53*1478204455924*breakpoint*create*app:/app.js*12*1*0**1<
+[20:55.919] Recv: >1478204455924*created<
+[20:55.919] Sent: >82*1478204455925*breakpoint*create*app:/ui/mainShopWindow/MainShopWindow.js*10*1*0**1<
+[20:55.919] Recv: >1478204455925*created<
+[20:55.919] Sent: >20*1478204455926*enable<
+[20:55.920] Recv: >1478204455926<
+[20:55.945] Recv: >threads*created*0*<
+[20:55.947] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/app.js, Resource: app_js<
+[20:55.951] Recv: >scripts*created*1|app:/app.js||1|123<
+[20:55.951] Recv: >resumed*0*started<
+[20:55.953] Recv: >suspended*0*breakpoint*app:/app.js*12<
+[20:55.953] Sent: >22*1478204455927*frames*0<
+[20:55.954] Recv: >1478204455927*0|||app:/app.js|12|false|0|0<
+[20:56.671] Sent: >34*1478204455928*variables*0*frame[0]<
+[20:56.676] Recv: >1478204455928*Magtek|undefined|wl|undefined<
+[21:2.299] Sent: >11**stepInto*0<
+[21:2.300] Recv: >resumed*0*stepInto<
+[21:2.304] Recv: >log*out*[INFO] Magtek iDynamo Reader Module loaded<
+[21:2.304] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ti.magtek.js, Resource: ti_magtek_js<
+[21:2.304] Recv: >suspended*0*requested*app:/app.js*14<
+[21:2.304] Sent: >22*1478204455929*frames*0<
+[21:2.305] Recv: >1478204455929*0|||app:/app.js|14|false|0|0<
+[21:2.593] Sent: >34*1478204455930*variables*0*frame[0]<
+[21:2.593] Recv: >1478204455930*Magtek|object|nol|[object ti.magtek]<
+[21:3.273] Sent: >11**stepInto*0<
+[21:3.274] Recv: >resumed*0*stepInto<
+[21:3.274] Recv: >suspended*0*requested*app:/app.js*17<
+[21:3.274] Sent: >22*1478204455931*frames*0<
+[21:3.275] Recv: >1478204455931*0|||app:/app.js|17|false|0|0<
+[21:3.559] Sent: >34*1478204455932*variables*0*frame[0]<
+[21:3.560] Recv: >1478204455932*Magtek|object|nol|[object ti.magtek]<
+[21:4.71] Sent: >11**stepInto*0<
+[21:4.72] Recv: >resumed*0*stepInto<
+[21:4.72] Recv: >suspended*0*requested*app:/app.js*20<
+[21:4.72] Sent: >22*1478204455933*frames*0<
+[21:4.72] Recv: >1478204455933*0|||app:/app.js|20|false|0|0<
+[21:4.359] Sent: >34*1478204455934*variables*0*frame[0]<
+[21:4.361] Recv: >1478204455934*Magtek|object|nol|[object ti.magtek]<
+[21:4.797] Sent: >11**stepInto*0<
+[21:4.798] Recv: >resumed*0*stepInto<
+[21:4.798] Recv: >suspended*0*requested*app:/app.js*23<
+[21:4.798] Sent: >22*1478204455935*frames*0<
+[21:4.799] Recv: >1478204455935*0|||app:/app.js|23|false|0|0<
+[21:5.144] Sent: >34*1478204455936*variables*0*frame[0]<
+[21:5.144] Recv: >1478204455936*Magtek|object|nol|[object ti.magtek]<
+[21:5.620] Sent: >11**stepInto*0<
+[21:5.621] Recv: >resumed*0*stepInto<
+[21:5.621] Recv: >suspended*0*requested*app:/app.js*28<
+[21:5.621] Sent: >22*1478204455937*frames*0<
+[21:5.622] Recv: >1478204455937*0|||app:/app.js|28|false|0|0<
+[21:5.958] Sent: >34*1478204455938*variables*0*frame[0]<
+[21:5.958] Recv: >1478204455938*Magtek|object|nol|[object ti.magtek]<
+[21:6.661] Sent: >11**stepInto*0<
+[21:6.661] Recv: >resumed*0*stepInto<
+[21:6.662] Recv: >suspended*0*requested*app:/app.js*34<
+[21:6.662] Sent: >22*1478204455939*frames*0<
+[21:6.663] Recv: >1478204455939*0|||app:/app.js|34|false|0|0<
+[21:6.960] Sent: >34*1478204455940*variables*0*frame[0]<
+[21:6.961] Recv: >1478204455940*Magtek|object|nol|[object ti.magtek]<
+[21:7.611] Sent: >11**stepInto*0<
+[21:7.611] Recv: >resumed*0*stepInto<
+[21:7.612] Recv: >suspended*0*requested*app:/app.js*35<
+[21:7.612] Sent: >22*1478204455941*frames*0<
+[21:7.613] Recv: >1478204455941*0|||app:/app.js|35|false|0|0*1|||app:/app.js|121|false|0|0<
+[21:7.935] Sent: >34*1478204455942*variables*0*frame[0]<
+[21:7.935] Recv: >1478204455942*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|undefined|wl|undefined*MainShopWindow|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|undefined|wl|undefined<
+[21:8.875] Sent: >11**stepInto*0<
+[21:8.875] Recv: >resumed*0*stepInto<
+[21:8.876] Recv: >suspended*0*requested*app:/app.js*37<
+[21:8.876] Sent: >22*1478204455943*frames*0<
+[21:8.877] Recv: >1478204455943*0|||app:/app.js|37|false|0|0*1|||app:/app.js|121|false|0|0<
+[21:9.152] Sent: >34*1478204455944*variables*0*frame[0]<
+[21:9.153] Recv: >1478204455944*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|undefined|wl|undefined*MainShopWindow|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|undefined|wl|undefined<
+[21:9.993] Sent: >11**stepInto*0<
+[21:9.993] Recv: >resumed*0*stepInto<
+[21:9.993] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ui/mainDisplayWindow/MainDisplayWindow.js, Resource: ui/mainDisplayWindow/MainDisplayWindow_js<
+[21:9.996] Recv: >scripts*created*2|app:/ui/mainDisplayWindow/MainDisplayWindow.js||1|26<
+[21:9.996] Recv: >suspended*0*firstLine*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:9.996] Sent: >22*1478204455945*frames*0<
+[21:9.997] Recv: >1478204455945*0|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/app.js|37|false|0|0*2|||app:/app.js|121|false|0|0<
+[21:10.428] Sent: >34*1478204455946*variables*0*frame[0]<
+[21:10.429] Recv: >1478204455946*Magtek|object|nol|[object ti.magtek]<
+[21:12.873] Sent: >11**stepInto*0<
+[21:12.873] Recv: >resumed*0*stepInto<
+[21:12.873] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:12.874] Sent: >22*1478204455947*frames*0<
+[21:12.874] Recv: >1478204455947*0|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/app.js|37|false|0|0*2|||app:/app.js|121|false|0|0<
+[21:13.140] Sent: >34*1478204455948*variables*0*frame[0]<
+[21:13.141] Recv: >1478204455948*Magtek|object|nol|[object ti.magtek]<
+[21:13.991] Sent: >11**stepInto*0<
+[21:13.992] Recv: >resumed*0*stepInto<
+[21:13.993] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:13.993] Sent: >22*1478204455949*frames*0<
+[21:13.993] Recv: >1478204455949*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:14.251] Sent: >34*1478204455950*variables*0*frame[0]<
+[21:14.251] Recv: >1478204455950*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|undefined|wl|undefined<
+[21:15.97] Sent: >11**stepInto*0<
+[21:15.98] Recv: >resumed*0*stepInto<
+[21:15.99] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:15.99] Sent: >22*1478204455951*frames*0<
+[21:15.99] Recv: >1478204455951*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:15.366] Sent: >34*1478204455952*variables*0*frame[0]<
+[21:15.366] Recv: >1478204455952*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|undefined|wl|undefined<
+[21:16.477] Sent: >11**stepInto*0<
+[21:16.478] Recv: >resumed*0*stepInto<
+[21:16.478] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:16.478] Sent: >22*1478204455953*frames*0<
+[21:16.479] Recv: >1478204455953*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:16.765] Sent: >34*1478204455954*variables*0*frame[0]<
+[21:16.766] Recv: >1478204455954*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|undefined|wl|undefined<
+[21:17.675] Sent: >11**stepInto*0<
+[21:17.675] Recv: >resumed*0*stepInto<
+[21:17.675] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:17.675] Sent: >22*1478204455955*frames*0<
+[21:17.676] Recv: >1478204455955*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:17.947] Sent: >34*1478204455956*variables*0*frame[0]<
+[21:17.948] Recv: >1478204455956*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|object|ol|[object Object]<
+[21:18.684] Sent: >11**stepInto*0<
+[21:18.685] Recv: >resumed*0*stepInto<
+[21:18.685] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*1<
+[21:18.685] Sent: >22*1478204455957*frames*0<
+[21:18.685] Recv: >1478204455957*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|1|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:18.947] Sent: >34*1478204455958*variables*0*frame[0]<
+[21:18.947] Recv: >1478204455958*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|object|ol|[object Object]<
+[21:19.730] Sent: >11**stepInto*0<
+[21:19.731] Recv: >resumed*0*stepInto<
+[21:19.732] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*25<
+[21:19.732] Sent: >22*1478204455959*frames*0<
+[21:19.738] Recv: >1478204455959*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|25|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:20.107] Sent: >34*1478204455960*variables*0*frame[0]<
+[21:20.107] Recv: >1478204455960*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|object|ol|[object Object]<
+[21:20.847] Sent: >11**stepInto*0<
+[21:20.847] Recv: >resumed*0*stepInto<
+[21:20.847] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*26<
+[21:20.847] Sent: >22*1478204455961*frames*0<
+[21:20.848] Recv: >1478204455961*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:21.111] Sent: >34*1478204455962*variables*0*frame[0]<
+[21:21.112] Recv: >1478204455962*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|object|ol|[object Object]<
+[21:22.157] Sent: >11**stepInto*0<
+[21:22.158] Recv: >resumed*0*stepInto<
+[21:22.158] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*26<
+[21:22.158] Sent: >22*1478204455963*frames*0<
+[21:22.159] Recv: >1478204455963*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:22.414] Sent: >34*1478204455964*variables*0*frame[0]<
+[21:22.415] Recv: >1478204455964*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|object|ol|[object Object]<
+[21:23.224] Sent: >11**stepInto*0<
+[21:23.225] Recv: >resumed*0*stepInto<
+[21:23.225] Recv: >suspended*0*requested*app:/ui/mainDisplayWindow/MainDisplayWindow.js*26<
+[21:23.225] Sent: >22*1478204455965*frames*0<
+[21:23.226] Recv: >1478204455965*0||exports|app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*1|||app:/ui/mainDisplayWindow/MainDisplayWindow.js|26|false|0|0*2|||app:/app.js|37|false|0|0*3|||app:/app.js|121|false|0|0<
+[21:23.521] Sent: >34*1478204455966*variables*0*frame[0]<
+[21:23.521] Recv: >1478204455966*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*exports|object|ol|[object Object]*module|object|ol|[object Object]<
+[21:30.992] Sent: >42*1478204455967*variables*0*frame[0].exports<
+[21:30.992] Recv: >1478204455967<
+[21:32.834] Sent: >40*1478204455968*details*0*frame[0].exports<
+[21:32.836] Recv: >1478204455968<
+[21:34.898] Sent: >44*1478204455969*variables*0*frame[0].arguments<
+[21:34.899] Recv: >1478204455969*0|object|ol|[object Object]<
+[21:34.907] Sent: >40*1478204455970*details*0*frame[0].exports<
+[21:34.907] Recv: >1478204455970<
+[21:36.683] Sent: >44*1478204455971*details*0*frame[0].arguments.0<
+[21:36.683] Recv: >1478204455971<
+[21:37.443] Sent: >46*1478204455972*variables*0*frame[0].arguments.0<
+[21:37.444] Recv: >1478204455972<
+[21:37.456] Sent: >44*1478204455973*details*0*frame[0].arguments.0<
+[21:37.456] Recv: >1478204455973<
+[21:38.968] Sent: >41*1478204455974*variables*0*frame[0].module<
+[21:38.969] Recv: >1478204455974*exports|object|l|[object Function]<
+[21:38.973] Sent: >44*1478204455975*details*0*frame[0].arguments.0<
+[21:38.974] Recv: >1478204455975<
+[21:40.359] Sent: >47*1478204455976*details*0*frame[0].module.exports<
+[21:40.359] Recv: >1478204455976<
+[21:43.143] Sent: >11**stepInto*0<
+[21:43.143] Recv: >resumed*0*stepInto<
+[21:43.143] Recv: >suspended*0*requested*app:/app.js*38<
+[21:43.144] Sent: >22*1478204455977*frames*0<
+[21:43.144] Recv: >1478204455977*0|||app:/app.js|38|false|0|0*1|||app:/app.js|121|false|0|0<
+[21:43.531] Sent: >34*1478204455978*variables*0*frame[0]<
+[21:43.532] Recv: >1478204455978*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|undefined|wl|undefined<
+[21:43.910] Sent: >44*1478204455979*variables*0*frame[0].arguments<
+[21:43.911] Recv: >1478204455979<
+[22:41.388] Sent: >11**stepInto*0<
+[22:41.388] Recv: >resumed*0*stepInto<
+[22:41.389] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ui/mainShopWindow/MainShopWindow.js, Resource: ui/mainShopWindow/MainShopWindow_js<
+[22:41.391] Recv: >scripts*created*3|app:/ui/mainShopWindow/MainShopWindow.js||1|159<
+[22:41.391] Recv: >suspended*0*firstLine*app:/ui/mainShopWindow/MainShopWindow.js*1<
+[22:41.391] Sent: >22*1478204455980*frames*0<
+[22:41.392] Recv: >1478204455980*0|||app:/ui/mainShopWindow/MainShopWindow.js|1|false|0|0*1|||app:/app.js|38|false|0|0*2|||app:/app.js|121|false|0|0<
+[22:41.732] Sent: >34*1478204455981*variables*0*frame[0]<
+[22:41.733] Recv: >1478204455981*Magtek|object|nol|[object ti.magtek]<
+[22:45.980] Sent: >11**stepInto*0<
+[22:45.980] Recv: >resumed*0*stepInto<
+[22:45.980] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*1<
+[22:45.981] Sent: >22*1478204455982*frames*0<
+[22:45.981] Recv: >1478204455982*0|||app:/ui/mainShopWindow/MainShopWindow.js|1|false|0|0*1|||app:/app.js|38|false|0|0*2|||app:/app.js|121|false|0|0<
+[22:46.236] Sent: >34*1478204455983*variables*0*frame[0]<
+[22:46.237] Recv: >1478204455983*Magtek|object|nol|[object ti.magtek]<
+[22:49.510] Sent: >11**stepOver*0<
+[22:49.510] Recv: >resumed*0*stepOver<
+[22:49.511] Recv: >suspended*0*requested*app:/app.js*39<
+[22:49.511] Sent: >22*1478204455984*frames*0<
+[22:49.511] Recv: >1478204455984*0|||app:/app.js|39|false|0|0*1|||app:/app.js|121|false|0|0<
+[22:49.860] Sent: >34*1478204455985*variables*0*frame[0]<
+[22:49.861] Recv: >1478204455985*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|undefined|wl|undefined<
+[22:52.273] Sent: >11**stepOver*0<
+[22:52.274] Recv: >resumed*0*stepOver<
+[22:52.274] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/lib/WooCommClient.js, Resource: lib/WooCommClient_js<
+[22:52.276] Recv: >scripts*created*4|app:/lib/WooCommClient.js||1|75<
+[22:52.277] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/lib/HttpClient.js, Resource: lib/HttpClient_js<
+[22:52.277] Recv: >scripts*created*5|app:/lib/HttpClient.js||1|152<
+[22:52.278] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/config.js, Resource: config_js<
+[22:52.278] Recv: >scripts*created*6|app:/config.js||1|70<
+[22:52.280] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/local-storage.js, Resource: local-storage_js<
+[22:52.280] Recv: >scripts*created*7|app:/local-storage.js||1|62<
+[22:52.280] Recv: >suspended*0*requested*app:/app.js*41<
+[22:52.281] Sent: >22*1478204455986*frames*0<
+[22:52.281] Recv: >1478204455986*0|||app:/app.js|41|false|0|0*1|||app:/app.js|121|false|0|0<
+[22:52.763] Sent: >34*1478204455987*variables*0*frame[0]<
+[22:52.767] Recv: >1478204455987*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|undefined|wl|undefined*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:6.474] Sent: >11**stepOver*0<
+[24:6.475] Recv: >resumed*0*stepOver<
+[24:6.480] Recv: >suspended*0*requested*app:/app.js*51<
+[24:6.481] Sent: >22*1478204455988*frames*0<
+[24:6.481] Recv: >1478204455988*0|||app:/app.js|51|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:6.846] Sent: >34*1478204455989*variables*0*frame[0]<
+[24:6.853] Recv: >1478204455989*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:8.469] Sent: >11**stepOver*0<
+[24:8.470] Recv: >resumed*0*stepOver<
+[24:8.470] Recv: >suspended*0*requested*app:/app.js*53<
+[24:8.471] Sent: >22*1478204455990*frames*0<
+[24:8.471] Recv: >1478204455990*0|||app:/app.js|53|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:8.768] Sent: >34*1478204455991*variables*0*frame[0]<
+[24:8.768] Recv: >1478204455991*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:11.271] Sent: >11**stepOver*0<
+[24:11.272] Recv: >resumed*0*stepOver<
+[24:11.277] Recv: >suspended*0*requested*app:/app.js*55<
+[24:11.278] Sent: >22*1478204455992*frames*0<
+[24:11.278] Recv: >1478204455992*0|||app:/app.js|55|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:11.693] Sent: >34*1478204455993*variables*0*frame[0]<
+[24:11.693] Recv: >1478204455993*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|undefined|wl|undefined*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:13.434] Sent: >11**stepOver*0<
+[24:13.434] Recv: >resumed*0*stepOver<
+[24:13.435] Recv: >suspended*0*breakpoint*app:/ui/mainShopWindow/MainShopWindow.js*10<
+[24:13.435] Sent: >22*1478204455994*frames*0<
+[24:13.436] Recv: >1478204455994*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|10|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:13.783] Sent: >34*1478204455995*variables*0*frame[0]<
+[24:13.784] Recv: >1478204455995*CategoryDock|undefined|wl|undefined*CategoryView|undefined|wl|undefined*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|undefined|wl|undefined*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|undefined|wl|undefined*loadingView|undefined|wl|undefined*localStorage|undefined|wl|undefined*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|undefined|wl|undefined<
+[24:16.52] Sent: >11**stepOver*0<
+[24:16.52] Recv: >resumed*0*stepOver<
+[24:16.53] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*11<
+[24:16.53] Sent: >22*1478204455996*frames*0<
+[24:16.53] Recv: >1478204455996*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|11|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:16.333] Sent: >34*1478204455997*variables*0*frame[0]<
+[24:16.334] Recv: >1478204455997*CategoryDock|undefined|wl|undefined*CategoryView|undefined|wl|undefined*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|undefined|wl|undefined*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|undefined|wl|undefined*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|undefined|wl|undefined<
+[24:17.660] Sent: >11**stepOver*0<
+[24:17.660] Recv: >resumed*0*stepOver<
+[24:17.661] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*12<
+[24:17.661] Sent: >22*1478204455998*frames*0<
+[24:17.661] Recv: >1478204455998*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|12|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:17.930] Sent: >34*1478204455999*variables*0*frame[0]<
+[24:17.935] Recv: >1478204455999*CategoryDock|undefined|wl|undefined*CategoryView|undefined|wl|undefined*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|undefined|wl|undefined*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|undefined|wl|undefined*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:19.96] Sent: >11**stepOver*0<
+[24:19.96] Recv: >resumed*0*stepOver<
+[24:19.97] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*13<
+[24:19.97] Sent: >22*1478204456000*frames*0<
+[24:19.97] Recv: >1478204456000*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|13|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:19.366] Sent: >34*1478204456001*variables*0*frame[0]<
+[24:19.366] Recv: >1478204456001*CategoryDock|undefined|wl|undefined*CategoryView|undefined|wl|undefined*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|undefined|wl|undefined*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:20.210] Sent: >11**stepOver*0<
+[24:20.212] Recv: >resumed*0*stepOver<
+[24:20.212] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ui/mainShopWindow/CategoryDock.js, Resource: ui/mainShopWindow/CategoryDock_js<
+[24:20.215] Recv: >scripts*created*8|app:/ui/mainShopWindow/CategoryDock.js||1|113<
+[24:20.220] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*14<
+[24:20.220] Sent: >22*1478204456002*frames*0<
+[24:20.222] Recv: >1478204456002*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|14|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:20.656] Sent: >34*1478204456003*variables*0*frame[0]<
+[24:20.662] Recv: >1478204456003*CategoryDock|object|l|[object Function]*CategoryView|undefined|wl|undefined*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|undefined|wl|undefined*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:21.318] Sent: >11**stepOver*0<
+[24:21.318] Recv: >resumed*0*stepOver<
+[24:21.318] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ui/mainShopWindow/CategoryView.js, Resource: ui/mainShopWindow/CategoryView_js<
+[24:21.321] Recv: >scripts*created*9|app:/ui/mainShopWindow/CategoryView.js||1|149<
+[24:21.321] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*15<
+[24:21.322] Sent: >22*1478204456004*frames*0<
+[24:21.322] Recv: >1478204456004*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|15|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:21.596] Sent: >34*1478204456005*variables*0*frame[0]<
+[24:21.597] Recv: >1478204456005*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|undefined|wl|undefined*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:22.339] Sent: >11**stepOver*0<
+[24:22.340] Recv: >resumed*0*stepOver<
+[24:22.340] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ui/mainShopWindow/PromptView.js, Resource: ui/mainShopWindow/PromptView_js<
+[24:22.343] Recv: >scripts*created*10|app:/ui/mainShopWindow/PromptView.js||1|87<
+[24:22.343] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*16<
+[24:22.343] Sent: >22*1478204456006*frames*0<
+[24:22.344] Recv: >1478204456006*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|16|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:22.617] Sent: >34*1478204456007*variables*0*frame[0]<
+[24:22.618] Recv: >1478204456007*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|undefined|wl|undefined*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:23.298] Sent: >11**stepOver*0<
+[24:23.298] Recv: >resumed*0*stepOver<
+[24:23.298] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/ui/mainShopWindow/LoadingView.js, Resource: ui/mainShopWindow/LoadingView_js<
+[24:23.301] Recv: >scripts*created*11|app:/ui/mainShopWindow/LoadingView.js||1|95<
+[24:23.301] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*20<
+[24:23.301] Sent: >22*1478204456008*frames*0<
+[24:23.302] Recv: >1478204456008*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|20|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:23.564] Sent: >34*1478204456009*variables*0*frame[0]<
+[24:23.565] Recv: >1478204456009*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|undefined|wl|undefined*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:24.274] Sent: >11**stepOver*0<
+[24:24.276] Recv: >resumed*0*stepOver<
+[24:24.281] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*28<
+[24:24.281] Sent: >22*1478204456010*frames*0<
+[24:24.283] Recv: >1478204456010*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|28|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:24.785] Sent: >34*1478204456011*variables*0*frame[0]<
+[24:24.785] Recv: >1478204456011*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|undefined|wl|undefined*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:25.328] Sent: >11**stepOver*0<
+[24:25.328] Recv: >resumed*0*stepOver<
+[24:25.329] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*31<
+[24:25.329] Sent: >22*1478204456012*frames*0<
+[24:25.329] Recv: >1478204456012*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|31|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:25.591] Sent: >34*1478204456013*variables*0*frame[0]<
+[24:25.591] Recv: >1478204456013*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:26.326] Sent: >11**stepOver*0<
+[24:26.326] Recv: >resumed*0*stepOver<
+[24:26.327] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*33<
+[24:26.327] Sent: >22*1478204456014*frames*0<
+[24:26.328] Recv: >1478204456014*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|33|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:26.603] Sent: >34*1478204456015*variables*0*frame[0]<
+[24:26.604] Recv: >1478204456015*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:27.236] Sent: >11**stepOver*0<
+[24:27.237] Recv: >resumed*0*stepOver<
+[24:27.238] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*36<
+[24:27.238] Sent: >22*1478204456016*frames*0<
+[24:27.238] Recv: >1478204456016*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|36|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:27.508] Sent: >34*1478204456017*variables*0*frame[0]<
+[24:27.508] Recv: >1478204456017*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:28.133] Sent: >11**stepOver*0<
+[24:28.134] Recv: >resumed*0*stepOver<
+[24:28.134] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*38<
+[24:28.135] Sent: >22*1478204456018*frames*0<
+[24:28.135] Recv: >1478204456018*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|38|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:28.461] Sent: >34*1478204456019*variables*0*frame[0]<
+[24:28.462] Recv: >1478204456019*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:29.43] Sent: >11**stepOver*0<
+[24:29.43] Recv: >resumed*0*stepOver<
+[24:29.44] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*42<
+[24:29.44] Sent: >22*1478204456020*frames*0<
+[24:29.45] Recv: >1478204456020*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|42|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:29.375] Sent: >34*1478204456021*variables*0*frame[0]<
+[24:29.376] Recv: >1478204456021*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:29.846] Sent: >11**stepOver*0<
+[24:29.847] Recv: >resumed*0*stepOver<
+[24:29.848] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*46<
+[24:29.848] Sent: >22*1478204456022*frames*0<
+[24:29.848] Recv: >1478204456022*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|46|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:30.179] Sent: >34*1478204456023*variables*0*frame[0]<
+[24:30.180] Recv: >1478204456023*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|undefined|wl|undefined*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:30.775] Sent: >11**stepOver*0<
+[24:30.775] Recv: >resumed*0*stepOver<
+[24:30.788] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*48<
+[24:30.788] Sent: >22*1478204456024*frames*0<
+[24:30.789] Recv: >1478204456024*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|48|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:31.236] Sent: >34*1478204456025*variables*0*frame[0]<
+[24:31.236] Recv: >1478204456025*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:31.721] Sent: >11**stepOver*0<
+[24:31.722] Recv: >resumed*0*stepOver<
+[24:31.723] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*50<
+[24:31.724] Sent: >22*1478204456026*frames*0<
+[24:31.724] Recv: >1478204456026*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|50|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:32.22] Sent: >34*1478204456027*variables*0*frame[0]<
+[24:32.23] Recv: >1478204456027*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|undefined|wl|undefined*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:32.648] Sent: >11**stepOver*0<
+[24:32.650] Recv: >resumed*0*stepOver<
+[24:32.651] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*56<
+[24:32.651] Sent: >22*1478204456028*frames*0<
+[24:32.658] Recv: >1478204456028*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|56|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:32.974] Sent: >34*1478204456029*variables*0*frame[0]<
+[24:32.975] Recv: >1478204456029*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:33.546] Sent: >11**stepOver*0<
+[24:33.547] Recv: >resumed*0*stepOver<
+[24:33.549] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*61<
+[24:33.549] Sent: >22*1478204456030*frames*0<
+[24:33.551] Recv: >1478204456030*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|61|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:33.838] Sent: >34*1478204456031*variables*0*frame[0]<
+[24:33.838] Recv: >1478204456031*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|undefined|wl|undefined*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:34.585] Sent: >11**stepOver*0<
+[24:34.586] Recv: >resumed*0*stepOver<
+[24:34.588] Recv: >log*out*[DEBUG] Loading: /Users/colehalverson/Library/Developer/CoreSimulator/Devices/563E9AF0-959A-4732-8652-5FCD373C0642/data/Containers/Bundle/Application/A004B94A-24C8-47A3-A49B-FD407D723502/Porter and York Kiosk.app/_app_props_.json, Resource: _app_props__json<
+[24:34.592] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*63<
+[24:34.593] Sent: >22*1478204456032*frames*0<
+[24:34.593] Recv: >1478204456032*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|63|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:35.101] Sent: >34*1478204456033*variables*0*frame[0]<
+[24:35.102] Recv: >1478204456033*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:35.941] Sent: >11**stepOver*0<
+[24:35.942] Recv: >resumed*0*stepOver<
+[24:35.943] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*67<
+[24:35.943] Sent: >22*1478204456034*frames*0<
+[24:35.944] Recv: >1478204456034*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|67|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:36.221] Sent: >34*1478204456035*variables*0*frame[0]<
+[24:36.221] Recv: >1478204456035*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:36.841] Sent: >11**stepOver*0<
+[24:36.841] Recv: >resumed*0*stepOver<
+[24:36.843] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*71<
+[24:36.843] Sent: >22*1478204456036*frames*0<
+[24:36.844] Recv: >1478204456036*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|71|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:37.157] Sent: >34*1478204456037*variables*0*frame[0]<
+[24:37.164] Recv: >1478204456037*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:37.893] Sent: >11**stepOver*0<
+[24:37.893] Recv: >resumed*0*stepOver<
+[24:37.895] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*73<
+[24:37.895] Sent: >22*1478204456038*frames*0<
+[24:37.896] Recv: >1478204456038*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|73|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:38.176] Sent: >34*1478204456039*variables*0*frame[0]<
+[24:38.177] Recv: >1478204456039*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:38.843] Sent: >11**stepOver*0<
+[24:38.843] Recv: >resumed*0*stepOver<
+[24:38.845] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*78<
+[24:38.845] Sent: >22*1478204456040*frames*0<
+[24:38.845] Recv: >1478204456040*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|78|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:39.124] Sent: >34*1478204456041*variables*0*frame[0]<
+[24:39.125] Recv: >1478204456041*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:39.849] Sent: >11**stepOver*0<
+[24:39.849] Recv: >resumed*0*stepOver<
+[24:39.851] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*82<
+[24:39.851] Sent: >22*1478204456042*frames*0<
+[24:39.851] Recv: >1478204456042*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|82|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:40.206] Sent: >34*1478204456043*variables*0*frame[0]<
+[24:40.207] Recv: >1478204456043*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:41.393] Sent: >11**stepOver*0<
+[24:41.393] Recv: >resumed*0*stepOver<
+[24:41.394] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*155<
+[24:41.394] Sent: >22*1478204456044*frames*0<
+[24:41.395] Recv: >1478204456044*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|155|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:41.744] Sent: >34*1478204456045*variables*0*frame[0]<
+[24:41.744] Recv: >1478204456045*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:44.556] Sent: >11**stepOver*0<
+[24:44.556] Recv: >resumed*0*stepOver<
+[24:44.557] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*155<
+[24:44.558] Sent: >22*1478204456046*frames*0<
+[24:44.558] Recv: >1478204456046*0|MainShopWindow|args|app:/ui/mainShopWindow/MainShopWindow.js|155|false|0|0*1|||app:/app.js|55|false|0|0*2|||app:/app.js|121|false|0|0<
+[24:44.840] Sent: >34*1478204456047*variables*0*frame[0]<
+[24:44.841] Recv: >1478204456047*CategoryDock|object|l|[object Function]*CategoryView|object|l|[object Function]*LoadingView|object|l|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|l|[object Function]*args|undefined|wl|undefined*arguments|object|opnl|[object Arguments]*exports|object|ov|[object Object]*httpClient|object|ol|[object Object]*loadingView|object|nol|[object TiUIView]*localStorage|object|ol|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|l|[object Function]*promptView|object|nol|[object TiUIView]*shade|object|nol|[object TiUIView]*win|object|nol|[object TiUIWindow]*windowOpenCallback|object|l|[object Function]*wooClient|object|ol|[object Object]<
+[24:46.12] Sent: >11**stepOver*0<
+[24:46.13] Recv: >resumed*0*stepOver<
+[24:46.14] Recv: >suspended*0*requested*app:/app.js*57<
+[24:46.14] Sent: >22*1478204456048*frames*0<
+[24:46.15] Recv: >1478204456048*0|||app:/app.js|57|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:46.349] Sent: >34*1478204456049*variables*0*frame[0]<
+[24:46.349] Recv: >1478204456049*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|object|nol|[object TiUIWindow]*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|undefined|wl|undefined*wooClient|object|ol|[object Object]<
+[24:53.666] Sent: >11**stepOver*0<
+[24:53.666] Recv: >resumed*0*stepOver<
+[24:53.667] Recv: >suspended*0*requested*app:/app.js*86<
+[24:53.667] Sent: >22*1478204456050*frames*0<
+[24:53.668] Recv: >1478204456050*0|||app:/app.js|86|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:53.971] Sent: >34*1478204456051*variables*0*frame[0]<
+[24:53.972] Recv: >1478204456051*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|object|nol|[object TiUIWindow]*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|number|wl|20*wooClient|object|ol|[object Object]<
+[24:58.13] Sent: >11**stepOver*0<
+[24:58.14] Recv: >resumed*0*stepOver<
+[24:58.15] Recv: >suspended*0*requested*app:/app.js*91<
+[24:58.15] Sent: >22*1478204456052*frames*0<
+[24:58.15] Recv: >1478204456052*0|||app:/app.js|91|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:58.269] Sent: >34*1478204456053*variables*0*frame[0]<
+[24:58.270] Recv: >1478204456053*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|object|nol|[object TiUIWindow]*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|number|wl|20*wooClient|object|ol|[object Object]<
+[24:59.555] Sent: >11**stepOver*0<
+[24:59.556] Recv: >resumed*0*stepOver<
+[24:59.557] Recv: >suspended*0*requested*app:/app.js*121<
+[24:59.557] Sent: >22*1478204456054*frames*0<
+[24:59.558] Recv: >1478204456054*0|||app:/app.js|121|false|0|0*1|||app:/app.js|121|false|0|0<
+[24:59.865] Sent: >34*1478204456055*variables*0*frame[0]<
+[24:59.866] Recv: >1478204456055*Magtek|object|nov|[object ti.magtek]*MainDisplayWindow|object|l|[object Function]*MainShopWindow|object|l|[object Function]*arguments|object|opnl|[object Arguments]*closeShop|object|l|[object Function]*loadShop|object|l|[object Function]*mainDisplayWindow|object|nol|[object TiUIWindow]*mainDisplayWindowClick|object|l|[object Function]*mainShopWindow|object|nol|[object TiUIWindow]*shopWindowClose|object|l|[object Function]*shopWindowOpen|object|l|[object Function]*shopWindowTouchstart|object|l|[object Function]*timeCheck|object|l|[object Function]*timer|undefined|wl|undefined*touchTime|number|wl|20*wooClient|object|ol|[object Object]<
+[25:1.807] Sent: >11**stepOver*0<
+[25:1.810] Recv: >resumed*0*stepOver<
+[25:1.810] Recv: >log*out*[DEBUG] Application booted in 245921.956003 ms<
+[25:1.814] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*28<
+[25:1.814] Sent: >22*1478204456056*frames*0<
+[25:1.816] Recv: >1478204456056*0|postLayoutCallback|e|app:/ui/mainShopWindow/MainShopWindow.js|28|false|0|0<
+[25:2.284] Sent: >34*1478204456057*variables*0*frame[0]<
+[25:2.284] Recv: >1478204456057*CategoryDock|object|v|[object Function]*CategoryView|object|v|[object Function]*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*e|object|ol|[object Object]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*loadingView|object|nov|[object TiUIView]*localStorage|object|ov|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*promptView|object|nov|[object TiUIView]*shade|object|nov|[object TiUIView]*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
+[25:4.93] Sent: >11**stepOver*0<
+[25:4.93] Recv: >resumed*0*stepOver<
+[25:4.94] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*29<
+[25:4.94] Sent: >22*1478204456058*frames*0<
+[25:4.95] Recv: >1478204456058*0|postLayoutCallback|e|app:/ui/mainShopWindow/MainShopWindow.js|29|false|0|0<
+[25:4.399] Sent: >34*1478204456059*variables*0*frame[0]<
+[25:4.400] Recv: >1478204456059*CategoryDock|object|v|[object Function]*CategoryView|object|v|[object Function]*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*e|object|ol|[object Object]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*loadingView|object|nov|[object TiUIView]*localStorage|object|ov|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*promptView|object|nov|[object TiUIView]*shade|object|nov|[object TiUIView]*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
+[25:7.630] Sent: >11**stepOver*0<
+[25:7.630] Recv: >resumed*0*stepOver<
+[25:7.632] Recv: >suspended*0*requested*app:/ui/mainShopWindow/MainShopWindow.js*30<
+[25:7.633] Sent: >22*1478204456060*frames*0<
+[25:7.633] Recv: >1478204456060*0|postLayoutCallback|e|app:/ui/mainShopWindow/MainShopWindow.js|30|false|0|0<
+[25:7.917] Sent: >34*1478204456061*variables*0*frame[0]<
+[25:7.918] Recv: >1478204456061*CategoryDock|object|v|[object Function]*CategoryView|object|v|[object Function]*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*MainShopWindow|object|v|[object Function]*PromptView|object|v|[object Function]*args|undefined|wv|undefined*arguments|object|opnl|[object Arguments]*e|object|ol|[object Object]*exports|object|ov|[object Object]*httpClient|object|ov|[object Object]*loadingView|object|nov|[object TiUIView]*localStorage|object|ov|[object Object]*module|object|ov|[object Object]*postLayoutCallback|object|v|[object Function]*promptView|object|nov|[object TiUIView]*shade|object|nov|[object TiUIView]*win|object|nov|[object TiUIWindow]*windowOpenCallback|object|v|[object Function]*wooClient|object|ov|[object Object]<
+[25:15.908] Sent: >11**stepInto*0<
+[25:15.909] Recv: >resumed*0*stepInto<
+[25:15.912] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*19<
+[25:15.912] Sent: >22*1478204456062*frames*0<
+[25:15.913] Recv: >1478204456062*0|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|19|false|0|0<
+[25:16.323] Sent: >34*1478204456063*variables*0*frame[0]<
+[25:16.324] Recv: >1478204456063*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*e|object|ol|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:19.165] Sent: >11**stepInto*0<
+[25:19.166] Recv: >resumed*0*stepInto<
+[25:19.167] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*20<
+[25:19.167] Sent: >22*1478204456064*frames*0<
+[25:19.168] Recv: >1478204456064*0|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|20|false|0|0<
+[25:19.487] Sent: >34*1478204456065*variables*0*frame[0]<
+[25:19.487] Recv: >1478204456065*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*e|object|ol|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:20.261] Sent: >11**stepInto*0<
+[25:20.262] Recv: >resumed*0*stepInto<
+[25:20.263] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*22<
+[25:20.263] Sent: >22*1478204456066*frames*0<
+[25:20.264] Recv: >1478204456066*0|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:20.551] Sent: >34*1478204456067*variables*0*frame[0]<
+[25:20.552] Recv: >1478204456067*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*e|object|ol|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:21.255] Sent: >11**stepInto*0<
+[25:21.261] Recv: >resumed*0*stepInto<
+[25:21.261] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*50<
+[25:21.261] Sent: >22*1478204456068*frames*0<
+[25:21.262] Recv: >1478204456068*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|50|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:21.762] Sent: >34*1478204456069*variables*0*frame[0]<
+[25:21.763] Recv: >1478204456069*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|undefined|wl|undefined*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|undefined|wl|undefined*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:23.543] Sent: >11**stepInto*0<
+[25:23.543] Recv: >resumed*0*stepInto<
+[25:23.545] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*52<
+[25:23.545] Sent: >22*1478204456070*frames*0<
+[25:23.546] Recv: >1478204456070*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|52|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:23.865] Sent: >34*1478204456071*variables*0*frame[0]<
+[25:23.866] Recv: >1478204456071*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|undefined|wl|undefined*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|undefined|wl|undefined*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:33.399] Sent: >11**stepInto*0<
+[25:33.400] Recv: >resumed*0*stepInto<
+[25:33.402] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*53<
+[25:33.402] Sent: >22*1478204456072*frames*0<
+[25:33.402] Recv: >1478204456072*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|53|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:33.676] Sent: >34*1478204456073*variables*0*frame[0]<
+[25:33.677] Recv: >1478204456073*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|undefined|wl|undefined*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:34.393] Sent: >11**stepInto*0<
+[25:34.394] Recv: >resumed*0*stepInto<
+[25:34.395] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*54<
+[25:34.396] Sent: >22*1478204456074*frames*0<
+[25:34.396] Recv: >1478204456074*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|54|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:34.670] Sent: >34*1478204456075*variables*0*frame[0]<
+[25:34.671] Recv: >1478204456075*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|undefined|wl|undefined*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:35.354] Sent: >11**stepInto*0<
+[25:35.355] Recv: >resumed*0*stepInto<
+[25:35.356] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*55<
+[25:35.356] Sent: >22*1478204456076*frames*0<
+[25:35.357] Recv: >1478204456076*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|55|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:35.617] Sent: >34*1478204456077*variables*0*frame[0]<
+[25:35.617] Recv: >1478204456077*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|undefined|wl|undefined*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:36.396] Sent: >11**stepInto*0<
+[25:36.396] Recv: >resumed*0*stepInto<
+[25:36.397] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*57<
+[25:36.398] Sent: >22*1478204456078*frames*0<
+[25:36.398] Recv: >1478204456078*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|57|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:36.674] Sent: >34*1478204456079*variables*0*frame[0]<
+[25:36.675] Recv: >1478204456079*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|undefined|wl|undefined*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:37.434] Sent: >11**stepInto*0<
+[25:37.435] Recv: >resumed*0*stepInto<
+[25:37.436] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*63<
+[25:37.437] Sent: >22*1478204456080*frames*0<
+[25:37.437] Recv: >1478204456080*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|63|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:37.724] Sent: >34*1478204456081*variables*0*frame[0]<
+[25:37.724] Recv: >1478204456081*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:38.444] Sent: >11**stepInto*0<
+[25:38.445] Recv: >resumed*0*stepInto<
+[25:38.446] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*64<
+[25:38.447] Sent: >22*1478204456082*frames*0<
+[25:38.447] Recv: >1478204456082*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|64|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:38.720] Sent: >34*1478204456083*variables*0*frame[0]<
+[25:38.721] Recv: >1478204456083*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|undefined|wl|undefined*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:39.434] Sent: >11**stepInto*0<
+[25:39.435] Recv: >resumed*0*stepInto<
+[25:39.436] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*69<
+[25:39.436] Sent: >22*1478204456084*frames*0<
+[25:39.437] Recv: >1478204456084*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|69|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:39.758] Sent: >34*1478204456085*variables*0*frame[0]<
+[25:39.758] Recv: >1478204456085*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|object|nol|[object TiAnimation]*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:40.472] Sent: >11**stepInto*0<
+[25:40.473] Recv: >resumed*0*stepInto<
+[25:40.474] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*70<
+[25:40.475] Sent: >22*1478204456086*frames*0<
+[25:40.475] Recv: >1478204456086*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|70|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:40.732] Sent: >34*1478204456087*variables*0*frame[0]<
+[25:40.732] Recv: >1478204456087*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|object|nol|[object TiAnimation]*a3|undefined|wl|undefined*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:41.429] Sent: >11**stepInto*0<
+[25:41.429] Recv: >resumed*0*stepInto<
+[25:41.430] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*75<
+[25:41.430] Sent: >22*1478204456088*frames*0<
+[25:41.431] Recv: >1478204456088*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|75|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:41.703] Sent: >34*1478204456089*variables*0*frame[0]<
+[25:41.703] Recv: >1478204456089*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|object|nol|[object TiAnimation]*a3|object|nol|[object TiAnimation]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:42.415] Sent: >11**stepInto*0<
+[25:42.416] Recv: >resumed*0*stepInto<
+[25:42.417] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*77<
+[25:42.418] Sent: >22*1478204456090*frames*0<
+[25:42.418] Recv: >1478204456090*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|77|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:42.684] Sent: >34*1478204456091*variables*0*frame[0]<
+[25:42.684] Recv: >1478204456091*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|object|nol|[object TiAnimation]*a3|object|nol|[object TiAnimation]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:43.420] Sent: >11**stepInto*0<
+[25:43.427] Recv: >resumed*0*stepInto<
+[25:43.427] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*78<
+[25:43.428] Sent: >22*1478204456092*frames*0<
+[25:43.428] Recv: >1478204456092*0|animateSpinner||app:/ui/mainShopWindow/LoadingView.js|78|false|0|0*1|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|22|false|0|0<
+[25:43.894] Sent: >34*1478204456093*variables*0*frame[0]<
+[25:43.894] Recv: >1478204456093*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*a1|object|nol|[object TiAnimation]*a2|object|nol|[object TiAnimation]*a3|object|nol|[object TiAnimation]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix|object|nol|[object Ti2DMatrix]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:44.381] Sent: >11**stepInto*0<
+[25:44.381] Recv: >resumed*0*stepInto<
+[25:44.383] Recv: >suspended*0*requested*app:/ui/mainShopWindow/LoadingView.js*23<
+[25:44.383] Sent: >22*1478204456094*frames*0<
+[25:44.383] Recv: >1478204456094*0|viewPostLayoutCallback|e|app:/ui/mainShopWindow/LoadingView.js|23|false|0|0<
+[25:44.736] Sent: >34*1478204456095*variables*0*frame[0]<
+[25:44.736] Recv: >1478204456095*LoadingView|object|v|[object Function]*Magtek|object|nov|[object ti.magtek]*animateSpinner|object|v|[object Function]*arguments|object|opnl|[object Arguments]*config|object|ov|[object Object]*e|object|ol|[object Object]*exports|object|ov|[object Object]*logoSpinner|object|nov|[object TiUIImageView]*mainLogo|object|nov|[object TiUIImageView]*matrix1|object|nov|[object Ti2DMatrix]*matrix2|object|nov|[object Ti2DMatrix]*matrix3|object|nov|[object Ti2DMatrix]*module|object|ov|[object Object]*shade|object|nov|[object TiUIView]*slogan|object|nov|[object TiUILabel]*view|object|nov|[object TiUIView]*viewPostLayoutCallback|object|v|[object Function]<
+[25:45.417] Sent: >11**stepInto*0<
+[25:45.417] Recv: >resumed*0*stepInto<
+[25:45.421] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.466] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.478] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.489] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.499] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.510] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.520] Recv: >log*out*[DEBUG] Ti.View.animate() called before view <TiUIImageView: 0x7fa3486c5520; frame = (512 384; 0 0); autoresize = LM+RM+TM+BM; layer = <CALayer: 0x7fa3486c6d90>> was ready: Will re-attempt<
+[25:45.520] Recv: >log*out*[DEBUG] Animation guard triggered, exceeded timeout to perform animation.<
+[25:56.138] Sent: >10**terminate<
+[25:56.138] Sent: >10**terminate<
 ----------End of file----------

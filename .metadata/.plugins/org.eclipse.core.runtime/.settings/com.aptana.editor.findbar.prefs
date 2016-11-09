@@ -1,3 +1,3 @@
-FIND_BAR_DECORATOR_FIND_ENTRIES=\#\n\#Fri Oct 28 13\:55\:14 PDT 2016\n9\=product_meta\n8\=categoryViews\n7\=categoryView\n6\=args\n5\=storedProducts\n4\=ti.magtek module loaded\n3\=ti.magtek\n2\=featured_\n1\=view\n0\=win\n
-FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\n\#Fri Oct 28 13\:55\:14 PDT 2016\n4\=categoryDock\n3\=dockViews\n2\=storedProducts\n1\=args\n0\=view\n
+FIND_BAR_DECORATOR_FIND_ENTRIES=\#\n\#Sat Nov 05 14\:50\:41 PDT 2016\n6\=args\n5\=storedProducts\n4\=ti.magtek module loaded\n3\=ti.magtek\n2\=featured_\n1\=win\n0\=view\n7\=categoryView\n
+FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\n\#Sat Nov 05 14\:50\:41 PDT 2016\n5\=categoryDock\n4\=dockViews\n3\=storedProducts\n2\=args\n1\=view\n0\=win\n
 eclipse.preferences.version=1

@@ -12,20 +12,20 @@ function MainShopWindow(args){
 	var localStorage = require('local-storage');
 	var CategoryDock = require('ui/mainShopWindow/CategoryDock');
 	var CategoryView = require('ui/mainShopWindow/CategoryView');
+	var HomeView = require('ui/mainShopWindow/HomeView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
-	var LoadingView = require('ui/mainShopWindow/LoadingView');
 	//var SingleProductView = require('ui/mainShopWindow/SingleProductView');
 
-	
 	var win = Ti.UI.createWindow({
 		width: '100%',
 		height: '100%',
-		opacity: 1.0,
+		opacity: 0.0,
 		fullscreen: true,
 		backgroundImage: 'ui/images/woodTable.png'
 	});
 	
 	var postLayoutCallback = function(e){
+		Ti.API.info('mainShopWin postlayout');
 		win.removeEventListener('postlayout', postLayoutCallback);
 	};
 	win.addEventListener('postlayout', postLayoutCallback);
@@ -42,10 +42,6 @@ function MainShopWindow(args){
 		win.hideProduct = function(view){
 			win.remove(view);
 		};
-	
-	var loadingView = new LoadingView();
-	
-	win.add(loadingView);
 	
 	var shade = Ti.UI.createView({
 		height: Ti.UI.FILL,
@@ -79,12 +75,28 @@ function MainShopWindow(args){
 		promptView.hide();
 	};
 	
-	
 	win.doneLoading = function(){
 		var scrollableView = Ti.UI.createScrollableView({
 			height: Ti.UI.FILL,
 			width: Ti.UI.FILL
 		});
+		
+			function scrollableViewPostlayoutCallback(e){
+				e.source.removeEventListener('postlayout', scrollableViewPostlayoutCallback);
+				
+				win.add(categoryDock);
+				
+				/**
+				 * Force all scrollableView.views to layout, which loads product images
+				 */
+				scrollableView.scrollToView(3);
+			
+				var delay = setTimeout(function(){
+					scrollableView.scrollToView(0);	
+				}, 100);
+			};
+		
+		scrollableView.addEventListener('postlayout', scrollableViewPostlayoutCallback);
 	
 		scrollableView.addEventListener('touchstart', function(){
 			win.fireEvent('touchstart');
@@ -110,10 +122,14 @@ function MainShopWindow(args){
 	
 		for (var i=0; i < storedProducts.length; i++){
 			
-			var categoryView = new CategoryView(storedProducts[i], win);
-			
-			categoryViews.push(categoryView);
-			
+			if(storedProducts[i].name === 'home')
+			{
+				var homeView = new HomeView();
+				categoryViews.push(homeView);
+			}else{
+				var categoryView = new CategoryView(storedProducts[i], win);
+				categoryViews.push(categoryView);
+			}	
 		}
 		
 		scrollableView.setViews(categoryViews);
@@ -142,12 +158,6 @@ function MainShopWindow(args){
 		}
 		scrollableView.addEventListener('scrollend', scrollableViewScrollEndCallback);
 		
-		win.add(categoryDock);
-		
-		//delay to allow time for remote images to load
-		var dramaticDelay = setTimeout(function(){
-			loadingView.hide();	
-		}, 3500);
 	};
 	
 	return win;

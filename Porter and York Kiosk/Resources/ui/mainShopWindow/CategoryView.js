@@ -11,6 +11,7 @@ function CategoryView(productArray, parentWindow){
 	var imageUtil = require('lib/ImageUtil');
 	
 	var SingleProductView = require('ui/mainShopWindow/SingleProductView');
+	var CategoryDescription = require('ui/mainShopWindow/CategoryDescription');
 	
 	Ti.API.info('ARRAY ' + JSON.stringify(productArray));
 	
@@ -23,14 +24,8 @@ function CategoryView(productArray, parentWindow){
 		showVerticalScrollIndicator: true
 	});
 	
-	var categoryDescription = Ti.UI.createView({
-		top: 10,
-		left: 10,
-		right: 10,
-		height: config.screenHeight * .75,
-		opacity: 0.95,
-		backgroundColor: 'white'
-	});
+	var categoryDescription = new CategoryDescription(productArray);
+	
 	mainView.add(categoryDescription);
 	
 	var productsView = Ti.UI.createView({
@@ -81,7 +76,8 @@ function CategoryView(productArray, parentWindow){
 			right: 3,
 			//width: config.screenHeight * 0.30 - 6,
 			image: 'ui/images/imageViewDefault.png',
-			imageUrl: productArray[i].featured_src
+			imageUrl: productArray[i].featured_src,
+			imageTitle: productArray[i].title
 		});
 		
 		view.add(view.imageView);
@@ -122,13 +118,19 @@ function CategoryView(productArray, parentWindow){
 	
 	for(var j = 0; j<productViews.length; j++){
 		productsView.add(productViews[j]);
-		getImage(productViews[j].imageView);
+		
+		productViews[j].imageView.addEventListener('postlayout', getImage);
+		//getImage(productViews[j].imageView);
 	}
 	
-		function getImage(imageView){
-			httpClient.doMediaGet(imageView.imageUrl, function(success, response){
+		function getImage(e){
+			Ti.API.info('getting image  ' + e.source.imageUrl );
+			e.source.removeEventListener('postlayout', getImage);
+			
+			httpClient.doMediaGet(e.source.imageUrl, function(success, response){
 						if(success){
-							imageView.setImage(imageUtil.assertSquare(response));
+							Ti.API.info('size: ' + response.getSize() + ' for: ' + e.source.imageTitle);
+							e.source.setImage(imageUtil.assertSquare(response));
 						}
 			});
 		}
