@@ -95,7 +95,7 @@ function CategoryDock(args){
 	};
 	
 	categoryDock.scrollEndCallback = function(e){
-		if(!e.source.nested){   							//This nested check prevents a vertical scrollend from calling this event and messing up the docks active index
+		  
 			for(var k=0; k<dockViews.length; k++){
 				if(k == e.currentPage){
 					dockViews[k].activate();
@@ -103,7 +103,6 @@ function CategoryDock(args){
 						dockViews[k].deactivate();
 				}
 			}
-		}
 	};
 	
 	return categoryDock;

@@ -24,9 +24,18 @@ function CategoryView(productArray, parentWindow){
 		showVerticalScrollIndicator: true
 	});
 	
-	var categoryDescription = new CategoryDescription(productArray);
+	mainView.showDetails = function(){
+		mainView.categoryDescription.showDetails();
+	};
 	
-	mainView.add(categoryDescription);
+	mainView.reset = function(){
+		mainView.categoryDescription.reset();
+		mainView.scrollTo(0,0);
+	};
+	
+	mainView.categoryDescription = new CategoryDescription(productArray);
+	
+	mainView.add(mainView.categoryDescription);
 	
 	var productsView = Ti.UI.createView({
 		top: 0,
