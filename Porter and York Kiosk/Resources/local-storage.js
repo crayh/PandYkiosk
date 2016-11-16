@@ -18,6 +18,8 @@ exports.storeProducts = function(products){
 	
 	for(var i=0; i < products.length; i++){
 		
+		Ti.API.info('Product = ' + JSON.stringify(products[i]));
+		
 		if(products[i].categories.indexOf('Beef') > -1){
 			beef.push(products[i]);
 			beef.name = 'Beef';

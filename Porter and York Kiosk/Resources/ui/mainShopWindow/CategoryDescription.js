@@ -16,7 +16,7 @@ function CategoryDescription(productArray){
 		width: '100%',
 		height: Ti.UI.SIZE,//config.screenHeight * .75,
 		//opacity: 0.95,
-		backgroundColor: 'white'
+		//backgroundColor: 'white'
 	});
 	
 		function categoryDescriptionViewPostlayout(e){
@@ -27,16 +27,19 @@ function CategoryDescription(productArray){
 		categoryDescriptionView.addEventListener('postlayout', categoryDescriptionViewPostlayout);
 	
 	var backgroundImage = Ti.UI.createImageView({
-		top: 0,
+		top: 10,
+		right: 10,
+		left: 10,
 		width: Ti.UI.FILL,
 		image: 'ui/images/beefBackground.png'
 	});
 	categoryDescriptionView.add(backgroundImage);
 	
 	var imageView = Ti.UI.createImageView({
-		top: 0,
-		width: Ti.UI.FILL,
-		image: 'ui/images/blurCategoryDescription.png',
+		top: 10,
+		left: 10,
+		right: 10,
+		image: 'ui/images/blurLightCategoryDescription.png',
 		opacity: 0.0
 	});
 	categoryDescriptionView.add(imageView);
@@ -44,7 +47,7 @@ function CategoryDescription(productArray){
 	categoryDescriptionView.showDetails = function(){
 		var delay = setTimeout(function(){
 			imageView.animate({opacity: 1.0, duration: 1000});
-		}, 500);
+		}, 250);
 	};
 	
 	categoryDescriptionView.reset = function(){

@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="view" key="selection"/>
+		<item value="Ti.API.info" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Ti.API.info"/>
 			<item value="view"/>
 			<item value="win"/>
 			<item value="featured_"/>
@@ -15,7 +16,6 @@
 			<item value="ti.magtek module loaded"/>
 			<item value="storedProducts"/>
 			<item value="args"/>
-			<item value="categoryView"/>
 		</list>
 		<list key="replacehistory">
 		</list>

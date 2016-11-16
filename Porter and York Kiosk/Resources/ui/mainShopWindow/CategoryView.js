@@ -133,12 +133,10 @@ function CategoryView(productArray, parentWindow){
 	}
 	
 		function getImage(e){
-			Ti.API.info('getting image  ' + e.source.imageUrl );
 			e.source.removeEventListener('postlayout', getImage);
 			
 			httpClient.doMediaGet(e.source.imageUrl, function(success, response){
 						if(success){
-							Ti.API.info('size: ' + response.getSize() + ' for: ' + e.source.imageTitle);
 							e.source.setImage(imageUtil.assertSquare(response));
 						}
 			});
