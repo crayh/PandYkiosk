@@ -14,6 +14,7 @@ function MainShopWindow(args){
 	var CategoryView = require('ui/mainShopWindow/CategoryView');
 	var HomeView = require('ui/mainShopWindow/HomeView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
+	var CartView = require('ui/mainShopWindow/CartView');
 	//var SingleProductView = require('ui/mainShopWindow/SingleProductView');
 
 	var win = Ti.UI.createWindow({
@@ -115,7 +116,13 @@ function MainShopWindow(args){
 		 */
 			var home = {name: 'home'};
 			storedProducts.unshift(home);
-		
+			
+		/**
+		 *  append storedProducts with a 'cart' element in the last index
+		 */
+			var cart = {name: 'cart'};
+			storedProducts.push(cart);
+					
 		//Build a CategoryView for each category with products
 		var categoryViews = [];
 		
@@ -126,6 +133,9 @@ function MainShopWindow(args){
 			{
 				var homeView = new HomeView();
 				categoryViews.push(homeView);
+			}else if(storedProducts[i].name === 'cart'){
+				var cartView = new CartView();
+				categoryViews.push(cartView);
 			}else{
 				var categoryView = new CategoryView(storedProducts[i], win);
 				categoryViews.push(categoryView);
@@ -163,7 +173,7 @@ function MainShopWindow(args){
 				
 				var eViews = e.source.getViews();
 				
-				for(var v = 1; v < eViews.length; v++)   //start at v = 1 to skip the 'home' view
+				for(var v = 1; v < eViews.length - 1; v++)   //start at v = 1 to skip the 'home' view.  for length - 1 to skip cart view
 				{
 					if(v != e.currentPage)
 					{

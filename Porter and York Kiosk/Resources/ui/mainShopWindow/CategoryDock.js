@@ -46,10 +46,9 @@ function CategoryDock(args){
 			text: args.storedProducts[i].name
 		});
 		
-		//TODO  get proper image by args.storedProducts[i].name
 		var imageView = Ti.UI.createImageView({
 			width: Ti.UI.FILL,
-			image: 'ui/images/knives.png'
+			image: 'ui/images/' + args.storedProducts[i].name + '-icon.png'
 		});
 		dockViews[i].add(imageView);
 		

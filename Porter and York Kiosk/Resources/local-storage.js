@@ -22,19 +22,19 @@ exports.storeProducts = function(products){
 		
 		if(products[i].categories.indexOf('Beef') > -1){
 			beef.push(products[i]);
-			beef.name = 'Beef';
+			beef.name = 'beef';
 		}else if(products[i].categories.indexOf('Chicken') > -1){
 			chicken.push(products[i]);
-			chicken.name = 'Chicken';
+			chicken.name = 'chicken';
 		}else if(products[i].categories.indexOf('Pork') > -1){
 			pork.push(products[i]);
-			pork.name = 'Pork';
+			pork.name = 'pork';
 		}else if(products[i].categories.indexOf('Seafood') > -1){
 			seafood.push(products[i]);
-			seafood.name = 'Seafood';
+			seafood.name = 'seafood';
 		}else if(products[i].categories.indexOf('Lamb') > -1){
 			lamb.push(products[i]);
-			lamb.name = 'Lamb';
+			lamb.name = 'lamb';
 		}
 		
 	}

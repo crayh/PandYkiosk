@@ -27,18 +27,18 @@ function CategoryDescription(productArray){
 		categoryDescriptionView.addEventListener('postlayout', categoryDescriptionViewPostlayout);
 	
 	var backgroundImage = Ti.UI.createImageView({
-		top: 10,
-		right: 10,
-		left: 10,
+		top: 5,
+		right: 5,
+		left: 5,
 		width: Ti.UI.FILL,
 		image: 'ui/images/beefBackground.png'
 	});
 	categoryDescriptionView.add(backgroundImage);
 	
 	var imageView = Ti.UI.createImageView({
-		top: 10,
-		left: 10,
-		right: 10,
+		top: 5,
+		left: 5,
+		right: 5,
 		image: 'ui/images/blurLightCategoryDescription.png',
 		opacity: 0.0
 	});
