@@ -55,19 +55,24 @@ function CategoryView(productArray, parentWindow){
 			width: '44%',
 			height: Ti.UI.SIZE,
 			backgroundColor: 'white',
-			layout: 'vertical'
+			layout: 'vertical',
+			productObject: productArray[i]
 		});
 		
 		view.addEventListener('click', function(e){
 			e.source.setTouchEnabled(false);
 			
-			var singleProductView = new SingleProductView();
+			productViewArgs = {
+				parentWindow: parentWindow,
+				productObject: e.source.productObject
+			};
+			
+			var singleProductView = new SingleProductView(productViewArgs);
 			
 			parentWindow.showProduct(singleProductView);
 			
 			e.source.setTouchEnabled(true);
 		});
-		
 		
 		if(i % 2 == 0)
 				{
@@ -80,13 +85,12 @@ function CategoryView(productArray, parentWindow){
 			
 		view.imageView = Ti.UI.createImageView({
 			top: 3,
-			//bottom: 3,
 			left: 3,
 			right: 3,
-			//width: config.screenHeight * 0.30 - 6,
 			image: 'ui/images/imageViewDefault.png',
 			imageUrl: productArray[i].featured_src,
-			imageTitle: productArray[i].title
+			imageTitle: productArray[i].title,
+			touchEnabled: false
 		});
 		
 		view.add(view.imageView);
@@ -96,7 +100,8 @@ function CategoryView(productArray, parentWindow){
 			height: Ti.UI.SIZE,
 			width: Ti.UI.FILL,
 			backgroundColor: 'white',
-			layout: 'vertical'
+			layout: 'vertical',
+			touchEnabled: false
 		});
 			
 			var titleLabel = Ti.UI.createLabel({

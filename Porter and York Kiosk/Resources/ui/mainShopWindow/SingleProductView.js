@@ -27,8 +27,40 @@ function SingleProductView(args){
 		borderRadius: 20
 	});
 	
-	mainScrollView.add(mainView);
+	var closeButton = Ti.UI.createLabel({
+		top: 20,
+		right: 20,
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE,
+		text: "X",
+		font: {fontSize: 30}
+	});
+	closeButton.addEventListener('click', function(e){
+		args.parentWindow.hideProduct(mainScrollView);
+	});
+	mainView.add(closeButton);
 	
+	var addToCartButton = Ti.UI.createLabel({
+		top: 20,
+		left: 20,
+		height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE,
+		text: "Add to Cart",
+		font: {fontSize: 30}
+	});
+	addToCartButton.addEventListener('click', addToCart);
+	mainView.add(addToCartButton);
+	
+	function addToCart(e){
+		Ti.API.info(args.productObject.variations);
+		/*
+		for (var v = 0; v < args.productObject.variations.length; v++){
+					Ti.API.info(args.productObject.variations[v]);
+				}*/
+		
+	}
+	
+	mainScrollView.add(mainView);
 	
 	return mainScrollView;
 }
