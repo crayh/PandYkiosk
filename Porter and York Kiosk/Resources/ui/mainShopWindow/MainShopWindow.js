@@ -178,7 +178,6 @@ function MainShopWindow(args){
 					if(v != e.currentPage)
 					{
 						eViews[v].reset();
-						Ti.API.info('reset');
 					}
 				}
 			}

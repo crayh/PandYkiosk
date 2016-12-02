@@ -13,8 +13,6 @@ function CategoryView(productArray, parentWindow){
 	var SingleProductView = require('ui/mainShopWindow/SingleProductView');
 	var CategoryDescription = require('ui/mainShopWindow/CategoryDescription');
 	
-	Ti.API.info('ARRAY ' + JSON.stringify(productArray));
-	
 	var mainView = Ti.UI.createScrollView({
 		height: Ti.UI.FILL,
 		width: Ti.UI.FILL,

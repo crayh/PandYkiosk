@@ -9,36 +9,30 @@ function CategoryDescription(productArray){
 	var config = require('config');
 	
 	var categoryDescriptionView = Ti.UI.createView({
-		//top: 10,
-		//left: 10,
-		//right: 10,
 		top: 0,
 		width: '100%',
-		height: Ti.UI.SIZE,//config.screenHeight * .75,
-		//opacity: 0.95,
-		//backgroundColor: 'white'
+		height: Ti.UI.SIZE
 	});
 	
 		function categoryDescriptionViewPostlayout(e){
 			categoryDescriptionView.removeEventListener('postlayout', categoryDescriptionViewPostlayout);
 			
-			//e.source.setHeight(e.source.size.height + 10);
 		}
 		categoryDescriptionView.addEventListener('postlayout', categoryDescriptionViewPostlayout);
 	
 	var backgroundImage = Ti.UI.createImageView({
-		top: 5,
-		right: 5,
-		left: 5,
+		top: 2,
+		right: 2,
+		left: 2,
 		width: Ti.UI.FILL,
 		image: 'ui/images/beefBackground.png'
 	});
 	categoryDescriptionView.add(backgroundImage);
 	
 	var imageView = Ti.UI.createImageView({
-		top: 5,
-		left: 5,
-		right: 5,
+		top: 2,
+		left: 2,
+		right: 2,
 		image: 'ui/images/blurLightCategoryDescription.png',
 		opacity: 0.0
 	});
