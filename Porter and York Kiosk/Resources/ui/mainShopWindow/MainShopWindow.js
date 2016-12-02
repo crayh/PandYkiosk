@@ -15,7 +15,6 @@ function MainShopWindow(args){
 	var HomeView = require('ui/mainShopWindow/HomeView');
 	var PromptView = require('ui/mainShopWindow/PromptView');
 	var CartView = require('ui/mainShopWindow/CartView');
-	//var SingleProductView = require('ui/mainShopWindow/SingleProductView');
 
 	var win = Ti.UI.createWindow({
 		width: '100%',
