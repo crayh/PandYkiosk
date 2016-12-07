@@ -46,6 +46,7 @@ Titanium.UI.setBackgroundImage('ui/images/wooTable.png');
 		var MainShopWindow = require('ui/mainShopWindow/MainShopWindow');
 		var LoadingWindow = require('ui/LoadingView');
 		var wooClient = require('lib/WooCommClient');
+		var cart = require('cart');
 
 		var mainDisplayWindow = new MainDisplayWindow();
 			
@@ -129,6 +130,8 @@ Titanium.UI.setBackgroundImage('ui/images/wooTable.png');
 				mainShopWindow.close();
 				
 				mainShopWindow = null;
+				
+				cart.clearCart();
 				
 				mainDisplayWindow.addEventListener('click', mainDisplayWindowClick);
 				
